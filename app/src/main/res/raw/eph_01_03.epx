@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1881 </h1> <p> L'empereur de Russie Alexandre II est victime d'un attentat perpétré par un mouvement révolutionnaire.</p>
+<h1>1815 </h1> <p> Napoléon quitte l'ile d'Elbe et débarque en provence. C'est le début des "cents jours" qui se termineront par la défaite de Waterloo.</p>
+<h1>1580 </h1> <p> L'humaniste Montaigne publie la première version de ses Essais.</p>
+<h1>487 </h1> <p> Clovis lave l'affront du vase de Soissons lors d'une revue de ses troupes.</p>
+
+</body>
+</html>

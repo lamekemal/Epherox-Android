@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1979 </h1> <p> Après 15 ans d'exil, L'Ayatollah Khomeiny rentre en Iran.</p>
+<h1>1917 </h1> <p> L'Allemagne déclare la guerre sous-marine totale pour rompre l'approvisionnement de la Grande-Bretagne.</p>
+<h1>1328 </h1> <p> Le roi de France Charles IV le Bel meurt à Vincennes sans héritier mâle.</p>
+
+</body>
+</html>

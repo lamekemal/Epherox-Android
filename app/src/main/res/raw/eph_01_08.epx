@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1936 </h1> <p> Adolf Hitler ouvre les jeux olympiques de Berlin.</p>
+<h1>1914 </h1> <p> L'Allemagne déclare la guerre à la Russie, tandis que la France ordonne la mobilisation générale.</p>
+<h1>1798 </h1> <p> En rade d'Aboukir (Egypte), la flotte française commandée par l'amiral Brueys d'Aigaïlliers est battue par la flotte britannique sous les ordres de l'amiral Nelson.</p>
+<h1>1785 </h1> <p> La Pérouse embarque à Brest pour un tour du monde commandité par Louis XVI.</p>
+<h1>1589 </h1> <p> Henri III meurt poignardé par un moine fanatique, Jacques Clément.</p>
+
+</body>
+</html>

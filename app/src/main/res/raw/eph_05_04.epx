@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1955 </h1> <p> Sir Winston Churchill, malade et âgé de 80 ans, démissionne de son poste de Premier ministre.</p>
+<h1>1951 </h1> <p> Julius et Ethel Rosenberg, accusés d'espionnage atomique au profit de l'URSS, sont condamnés à mort à New York.</p>
+<h1>1794 </h1> <p> Hostile aux excès de la Terreur, Danton et Camille Desmoulins sont arrêtés, jugés par un tribunal révolutionnaire puis guillotinés.</p>
+
+</body>
+</html>

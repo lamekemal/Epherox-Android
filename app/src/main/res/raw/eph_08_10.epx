@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+</body>
+
+<h1>1991 </h1> <p> La Croatie et la Slovénie proclament leur indépendance.</p>
+<h1>1982 </h1> <p> Le Parlement polonais vote une loi interdisant le syndicat Solidarnosc.</p>
+<h1>1967 </h1> <p> Che Guevarra est capturé en Bolivie. Il sera exécuté le lendemain.</p>
+<h1>1517 </h1> <p> François Ier signe la charte de fondation du Havre (Franciscopolis), construit pour remplacer le port enlisé de Harfleur.</p>
+<h1>451 </h1> <p> Ouverture du concile de Chalcédoine, qui proclame la double nature, humaine et divine, du Christ. </p>
+
+</body>
+</html>

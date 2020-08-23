@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1939 </h1> <p> Les forces armées allemandes envahissent la Pologne, à la suite d’un faux incident frontalier orchestré par les SS. Le volet européen de la seconde guerre mondiale vient de débuter.</p>
+<h1>1923 </h1> <p> Un tremblement de terre catastrophique ravage la région de Tokyo-Yokohama au Japon. Près des trois quarts de la capitale sont détruits et on compte plus de 100 000 morts.</p>
+<h1>1715 </h1> <p> Louis XIV, roi de France depuis 1643 meurt à 72 ans au château de Versailles. Il laisse à son héritier (son arrière petit-fils) un royaume puissant mais aussi affaibli par des décennies de guerre.</p>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blanc</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Shrine.SmallComponent
+        </item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Shrine.MediumComponent
+        </item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Shrine.LargeComponent
+        </item>
+        <item name="bottomSheetDialogTheme">@style/Theme.Shrine.BottomSheetDialog</item>
+        <item name="chipStyle">@style/Widget.Shrine.Chip</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Shrine.FloatingActionButton</item>
+        <item name="textInputStyle">@style/Widget.Shrine.TextInputLayout</item>
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1886 </h1> <p> Le chef apache Geronimo, dépose les armes pour la dernière fois. Symbole de la résistance amérindienne aux Mexicains et aux Américains, il mourra en 1909.</p>
+<h1>1797 </h1> <p> Un coup d’état au sein du Directoire décapite l’opposition royaliste et modérée. Ce coup d’état de Fructidor a vu le rôle politique du général Bonaparte s’accroitre sensiblement.</p>
+<h1>476 </h1> <p> Le roi des Hérules, Odoacre force l’empereur Romulus Augustule à abdiquer après la prise de Ravenne. C’est la date retenue pour marquer la fin de l’Empire Romain d’Occident.</p>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1987 </h1> <p> La cour d'assises du Rhône condamne Klaus Barbie, ancien chef de la Gestapo à Lyon, à la prison à vie pour crimes contre l'humanité.</p>
+<h1>1904 </h1> <p> Début de la construction du canal de Panama.</p>
+<h1>1776 </h1> <p> Le Congrès américain adopte la Déclaration d'Indépendance des Etats-Unis.</p>
+<h1>1187 </h1> <p> Saladin bat les troupes du roi de Jérusalem et du Grand Maître des Templiers à la bataille de Hattin, près du lac de Tibériade, et entame la reconquête musulmane du Proche-Orient.</p>
+
+</body>
+</html>

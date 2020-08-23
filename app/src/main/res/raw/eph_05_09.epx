@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1972 </h1> <p> Des terroristes palestiniens abattent onze athlètes israéliens qu’ils retenaient en otage, à Munich pendant les Jeux-Olympiques. Ils sont ensuite mis hors d’état de nuire par la police allemande.</p>
+<h1>1774 </h1> <p> 51 représentants des colonies britanniques d’Amérique du Nord se rassemblent à Philadelphie pour un congrès continental. Le congrès s’oppose à Londres et ouvre la voie à la Révolution américaine.</p>
+<h1>1661 </h1> <p> Le surintendant des finances Nicolas Fouquet est arrêté à Nantes sur ordre de Louis XIV. Ce génie de la finance, très ambitieux, avait fini par devenir un obstacle politique pour le roi.</p>
+
+</body>
+</html>

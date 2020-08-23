@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/citation"
+        android:icon="@drawable/ic_mood_black_24dp"
+        android:title="@string/citation"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/hit_month"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:title="@string/histoir_mois" />
+
+    <item
+        android:id="@+id/eph_game"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:title="@string/jeux_menu" />
+
+</menu>

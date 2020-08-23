@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1974 </h1> <p> En France, une loi abaisse l'âge de la majorité civile qui passe de 21 à 18 ans.</p>
+<h1>1943 </h1> <p> En Russie débute la bataille de Koursk, la plus grande bataille de chars de l'histoire, qui s'achèvera par une défaite allemande.</p>
+<h1>1830 </h1> <p> Prise d'Alger par les Français.</p>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1944 </h1> <p> Anne Frank et sa famille sont arrêtés par la Gestapo. Son journal deviendra un succès littéraire posthume.</p>
+<h1>1914 </h1> <p> Malgré la neutralité du pays, les Allemands envahissent la Belgique.</p>
+<h1>1789 </h1> <p> L'Assemblée nationale constituante proclame la fin du régime féodal et l'abolition des privilèges.</p>
+
+</body>
+</html>

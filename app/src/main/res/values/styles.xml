@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blanc</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Shrine.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Shrine.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Shrine.LargeComponent</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.Shrine.BottomSheetDialog</item>
+        <item name="chipStyle">@style/Widget.Shrine.Chip</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Shrine.FloatingActionButton</item>
+        <item name="textInputStyle">@style/Widget.Shrine.TextInputLayout</item>
+    </style>
+
+
+    <style name="ShapeAppearance.Shrine.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Shrine.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Shrine.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+    <style name="Widget.Shrine.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Shrine.LargeComponent</item>
+    </style>
+
+    <style name="Widget.Shrine.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipCornerRadius">@style/ShapeAppearance.Shrine.LargeComponent</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Shrine.Chip</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Shrine.Chip" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="Widget.Shrine.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+
+    <style name="Theme.Shrine.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Shrine.BottomSheet.Modal</item>
+    </style>
+    <style name="Widget.Shrine.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Shrine.BottomSheet</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.Shrine.BottomSheet" parent="">
+        <item name="cornerSize">0dp</item>
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">24dp</item>
+    </style>
+
+</resources>

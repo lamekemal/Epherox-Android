@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1969 </h1> <p> Le Concorde 001 réussit son premier vol supersonique à une vitesse de 1 062 km/h, soit Mach 1,05.</p>
+<h1>1967 </h1> <p> A 14h15, la télévision en couleurs fait ses débuts officiels en France.</p>
+<h1>1949 </h1> <p> Du haut du balcon de la Cité Interdite à Pékin, Mao Zedong proclame la République Populaire de Chine.</p>
+<h1>1936 </h1> <p> Le général Franco, chef des nationalistes rebelles espagnols, est proclamé "generalissimo" et chef d'état à Burgos.</p>
+<h1>1800 </h1> <p> Le traité de San Idefonso signé entre l'Espagne et la France restitue le territoire espagnol de la Louisiane aux Français.</p>
+<h1>- 331 </h1> <p> Victoire d'Alexandre le Grand à Gaugamèles : le roi de Macédoine bat le roi de Perse, Darius III, en Mésopotamie.</p>
+
+</body>
+</html>

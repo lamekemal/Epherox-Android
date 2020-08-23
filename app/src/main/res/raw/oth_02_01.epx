@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>autre</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+<h1>Saints à fêter</h1>
+
+	<p>  &emsp; - Adélard (patron des jardiniers) </p>
+	<p>  &emsp; - Basile le Grand </p>
+	<p>  &emsp; - Clair (patron des lanterniers) </p>
+	<p>  &emsp; - Grégoire de Nazareth </p>
+	<p>  &emsp; - Macaire le Jeune (patron des pâtissiers)</p>
+	
+<strong><br></strong>
+</body>
+</html>

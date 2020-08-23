@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+</body>
+
+<h1>1980 </h1> <p> Marguerite Yourcenar est la première femme élue à l'Académie française.</p>
+<h1>1836 </h1> <p> Les mexicains s'emparent du fort Alamo, symbole de l'insurrection texane.</p>
+<h1>1824 </h1> <p> France, Les élections au suffrage censitaire donnent à nouveau une large majorité aux ultras royalistes.</p>
+<h1>1204 </h1> <p> La prise de Château-Gaillard ouvre au roi de France Philippe-Auguste la conquête de la Normandie.</p>
+
+</body>
+</html>

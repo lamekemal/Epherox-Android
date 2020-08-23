@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>1958 </h1> <p> Naissance de la Ve République française.</p>
+<h1>1947 </h1> <p> Création du Kominform, organisme soviétique de contrôle des partis communistes étrangers.</p>
+<h1>1910 </h1> <p> La République est proclamée au Portugal, sous l'autorité de Theophilo Braga.</p>
+<h1>1795 </h1> <p> L'insurrection royaliste de Paris est écrasée par le général Bonaparte.</p>
+<h1>816 </h1> <p> Louis Ier le Pieux est sacré empereur d'Occident par le pape Etienne IV, après son couronnement laïc de 813 en présence de son père Charlemagne et des grands de l'empire.</p>
+<h1>610 </h1> <p> Soutenu par le peuple de Constantinople, le général Héraclius dépose et exécute l'empereur Phocas, auquel il succède.</p>
+</body>
+</html>

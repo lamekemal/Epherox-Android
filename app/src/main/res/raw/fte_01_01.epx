@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+    <p><em><u><strong><br></strong></u></em><em><strong>R&eacute;publique de Cuba</strong></em><br>- Capitale : La Havane<br>- Langues officielles : Espagnol<br><br><strong><em>R&eacute;publique d&#39;Ha&iuml;ti</em></strong><br>- Capitale : Port-au-Prince<br>- Langues officielles : Fran&ccedil;ais et Cr&eacute;ole<br><br><strong><em>R&eacute;publique Slovaque</em></strong><br>- Capitale : Bratislava<br>- Langues officielles : Slovaque<br><br><strong><em>R&eacute;publique du Soudan</em></strong><br>- Capitale : Khartoum<br>- Langues officielles : Arabe</p>
+<strong><br></strong>
+</body>
+</html>

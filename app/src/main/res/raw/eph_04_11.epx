@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1995 </h1> <p> Le Premier ministre israélien Yitzhak Rabin est assassiné à Tel Aviv par un étudiant extrémiste juif à l'issue d'un rassemblement organisé en faveur du processus de paix.</p>
+<h1>1952 </h1> <p> Le général Dwight Eisenhower, candidat républicain, est élu président des Etats-Unis.</p>
+<h1>1931 </h1> <p> La Société des Nations accuse le Japon d'agression en Mandchourie.</p>
+<h1>1922 </h1> <p> Carter découvre la tombe du pharaon Toutankhamon, en Egypte.</p>
+<h1>1848 </h1> <p> Promulgation de la Constitution de la IIe République française.</p>
+<h1>644 </h1> <p> Omar, le second calife de l'Islam, est assassiné à Médine par un esclave perse chrétien.</p>
+
+</body>
+</html>

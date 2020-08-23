@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">epherox</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search_hint">Recherche</string>
+    <string name="select_dates_hint">Filtrer</string>
+    <string name="title_hazards">Items_T</string>
+    <string name="title_activity_start">start</string>
+
+    <string name="cat_bottomappbar_center">Center</string>
+    <string name="cat_bottomappbar_fab_hide">Hide Fab</string>
+    <string name="cat_bottomappbar_fab_show">Show Fab</string>
+    <string name="cat_bottomappbar_scroll_hide">Hide on scroll</string>
+    <string name="cat_bottomappbar_fab_circle">Circle</string>
+    <string name="cat_bottomappbar_fab_diamond">Diamond</string>
+    <string name="cat_bottomappbar_end">End</string>
+
+    <string name="cat_bottomappbar_3d">3D</string>
+    <string name="cat_bottomappbar_accelerator">Accelerator</string>
+    <string name="cat_bottomappbar_search">Search</string>
+    <string name="cat_bottomappbar_dashboard">Dashboard</string>
+    <string name="cat_bottomappbar_navigation_button_content_description">Show navigation drawer</string>
+    <string name="cat_bottomappbar_fab_button_content_description">FAB</string>
+    <string name="jeux_menu">Jeux</string>
+    <string name="citation">Citation</string>
+    <string name="histoir_mois">Histoire des noms du Mois</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chronologie">Chronologie</string>
+    <string name="world_hist">Histoire (Monde)</string>
+    <string name="worl_cult">Culture étrangère</string>
+    <string name="settings">Paramètres</string>
+    <string name="tab_eph">Ephemeride</string>
+    <string name="tab_naiss">Naissances Célèbres</string>
+    <string name="tab_dec">Décès Célèbres</string>
+    <string name="tab_other">Autres</string>
+    <string name="tab_natf">Fête Nationale</string>
+
+</resources>

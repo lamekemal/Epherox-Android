@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/back_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@raw/wki"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/blanc"
+            android:src="@drawable/ephx_logo"
+            android:scaleType="fitStart"/>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           app:tabSelectedTextColor="@color/colorAccent"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabMode="auto">
+            <com.google.android.material.tabs.TabItem
+                android:text="@string/tab_eph"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <com.google.android.material.tabs.TabItem
+                android:text="@string/tab_naiss"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <com.google.android.material.tabs.TabItem
+                android:text="@string/tab_dec"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <com.google.android.material.tabs.TabItem
+                android:text="@string/tab_natf"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+            <com.google.android.material.tabs.TabItem
+                android:text="@string/tab_other"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </com.google.android.material.tabs.TabLayout>
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="45dp"
+            android:id="@+id/webview"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottomAppbar"
+        app:fabCradleRoundedCornerRadius="18dp"
+        app:hideOnScroll="true"
+        android:backgroundTint="@color/blanc"
+        app:navigationIcon="@drawable/ic_menu_black_24dp"
+        android:fitsSystemWindows="true"
+        app:fabCradleMargin="12dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:id="@+id/fabHome"
+        android:backgroundTint="@color/colorAccent"
+        app:tint="@color/blanc"
+        app:layout_anchor="@+id/bottomAppbar"
+        android:src="@drawable/round_home_white_36"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

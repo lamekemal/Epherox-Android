@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+</body>
+
+<h1>1989 </h1> <p> Le mur de Berlin tombe. Après 28 ans de séparation entre l'est et l'ouest, le mur de la honte s'écroule, entraînant dans son sillage le système sovitétique.</p>
+<h1>1970 </h1> <p> Mort de Charles de Gaulle, qui s'éteint à Colombey, un an et demi après sa démission.</p>
+<h1>1938 </h1> <p> Nuit de cristal en Allemagne. Les nazis s'attaquent violemment à la population de confession juive.</p>
+<h1>1918 </h1> <p> L'empereur Guillaume II abdique et quitte l'Allemagne.</p>
+<h1>1799 </h1> <p> Coup d'Etat du 18 Brumaire. Sous la pression des armes, Bonaparte met fin au régime du directoire et impose le consulat.</p>
+
+</body>
+</html>

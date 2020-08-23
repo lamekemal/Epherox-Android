@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chr"
+        android:icon="@drawable/ic_mood_black_24dp"
+        android:title="@string/chronologie" />
+
+    <item
+        android:id="@+id/nav_wh"
+        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:title="@string/world_hist" />
+
+    <item
+        android:id="@+id/nav_clt"
+        android:icon="@android:drawable/ic_menu_upload_you_tube"
+        android:title="@string/worl_cult" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_mood_black_24dp"
+        android:title="@string/citation" />
+
+    <item
+        android:id="@+id/nav_hm"
+        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:title="@string/histoir_mois" />
+
+    <item
+        android:id="@+id/nav_game"
+        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:title="@string/jeux_menu" />
+    <item
+        android:id="@+id/nav_set"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings" />
+</menu>

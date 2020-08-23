@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Document sans nom</title>
+<style type="text/css">
+h1 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+</style>
+
+</head>
+<body>
+<h1>1968 </h1> <p> Le pasteur noir Martin Luther King est assassiné à 38 ans dans le Tennessee. Engagé dans la lutte contre la ségrégation, il est resté célèbre pour son discours "I Have a Dream".</p>
+<h1>1949 </h1> <p> Douze démocraties occidentales signent le Traité de l'Atlantique Nord (OTAN) à Washington pour faire face à la menace soviétique.</p>
+<h1>1791 </h1> <p> L'Assemblée constituante décide de transformer l'église parisienne Sainte-Geneviève en temple civique destiné à accueillir les cendres des grands hommes de la patrie. Mirabeau sera la première personnalité inhumée au Panthéon, suivit de Voltaire et Rousseau.</p>
+
+</body>
+</html>
