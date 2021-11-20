@@ -25,17 +25,20 @@
             android:background="@color/blanc"
             android:src="@drawable/ephx_logo"
             android:scaleType="fitStart"/>
+
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-           app:tabSelectedTextColor="@color/colorAccent"
             app:tabIndicatorColor="@color/colorAccent"
-            app:tabMode="auto">
-            <com.google.android.material.tabs.TabItem
-                android:text="@string/tab_eph"
+            app:tabMode="auto"
+            app:tabSelectedTextColor="@color/colorAccent">
+
+            <!--com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
+                android:text="@string/tab_eph"
+                 />
             <com.google.android.material.tabs.TabItem
                 android:text="@string/tab_naiss"
                 android:layout_height="wrap_content"
@@ -47,16 +50,18 @@
             <com.google.android.material.tabs.TabItem
                 android:text="@string/tab_natf"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
+                android:layout_width="wrap_content"
+                />
             <com.google.android.material.tabs.TabItem
                 android:text="@string/tab_other"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content" />
+                android:layout_width="wrap_content" /-->
         </com.google.android.material.tabs.TabLayout>
+
         <WebView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="45dp"
+            android:layout_marginBottom="60dp"
             android:id="@+id/webview"
             android:background="@android:color/transparent"/>
     </LinearLayout>

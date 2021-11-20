@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1942 </h1> <p> Le gouvernement de Vichy assigne en justice les anciens dirigeants politiques et militaires français Edouard Daladier, Guy La Chambre, Maurice Gamelin, Léon Blum et Robert Jacomet à Riom dans le Puy-de-Dôme. Ils sont accusés d'être responsables de la défaite de 1940.<p>
-</h1>1803 </h1> <p> Bonaparte rétablit la Confédération suisse, composée de 19 cantons regis par une diète fédérale.<p>
-</h1>1797 </h1> <p> Alors que les troupes de Napoléon Bonaparte envahissent l’Italie, les représentants du pape sont contraints de signer le traité de Tolentino, par lequel les États pontificaux perdent d’importants territoires.<p>
-</h1>197 </h1> <p> A Lyon, Septime Severe l'emporte sur son rival Albinus et devient Empereur romain. La ville,qui avait choisi le mauvais camp, est dévastée en représaille.<p>
+  </head>
+  <body>
+<h1>1942 </h1> <p> Le gouvernement de Vichy assigne en justice les anciens dirigeants politiques et militaires français Edouard Daladier, Guy La Chambre, Maurice Gamelin, Léon Blum et Robert Jacomet à Riom dans le Puy-de-Dôme. Ils sont accusés d'être responsables de la défaite de 1940.</p>
+<h1>1803 </h1> <p> Bonaparte rétablit la Confédération suisse, composée de 19 cantons regis par une diète fédérale.</p>
+<h1>1797 </h1> <p> Alors que les troupes de Napoléon Bonaparte envahissent l’Italie, les représentants du pape sont contraints de signer le traité de Tolentino, par lequel les États pontificaux perdent d’importants territoires.</p>
+<h1>197 </h1> <p> A Lyon, Septime Severe l'emporte sur son rival Albinus et devient Empereur romain. La ville,qui avait choisi le mauvais camp, est dévastée en représaille.</p>
 </body>
 </html>

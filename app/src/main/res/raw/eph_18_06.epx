@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1815</h1> <p> A Waterloo en Belgique l’armée française de l’empereur Napoléon Ier est vaincue par des unités prussiennes et britanniques. C’est la fin de l’épopée Napoléonienne.<p>
-</h1>1940</h1> <p> A Londres, le général de brigade à titre provisoire Charles de Gaulle lance un appel aux français sur les ondes de la BBC. De Gaulle enjoint ses compatriotes à poursuivre le combat contre l’Allemagne, malgré l’armistice prochain. Le mouvement de la France Libre vient de naitre.<p>
-</h1>1953</h1> <p> En Egypte la république est proclamée, un an après le renversement du roi Farouk. La nouvelle république est l’œuvre du mouvement des officiers libres, parmi lesquels le colonel Nasser va bientôt prendre l’ascendant.<p
+  </head>
+  <body>
+<h1>1815</h1> <p> A Waterloo en Belgique l’armée française de l’empereur Napoléon Ier est vaincue par des unités prussiennes et britanniques. C’est la fin de l’épopée Napoléonienne.</p>
+<h1>1940</h1> <p> A Londres, le général de brigade à titre provisoire Charles de Gaulle lance un appel aux français sur les ondes de la BBC. De Gaulle enjoint ses compatriotes à poursuivre le combat contre l’Allemagne, malgré l’armistice prochain. Le mouvement de la France Libre vient de naitre.</p>
+<h1>1953</h1> <p> En Egypte la république est proclamée, un an après le renversement du roi Farouk. La nouvelle république est l’œuvre du mouvement des officiers libres, parmi lesquels le colonel Nasser va bientôt prendre l’ascendant.</p>
 </body>
 </html>

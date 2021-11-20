@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1897 </h1> <p> L'écrivain irlandais Abraham Stoker, dit Bram Stoker, publie "Dracula".<p>
-</h1>1804 </h1> <p> Un sénatus-consulte établit l'Empire et promulgue la Constitution de l'an XII. Napoléon Bonaparte échange son titre de Premier Consul contre celui d'Empereur.<p>
-</h1>1302 </h1> <p> Les Flamands se révoltent contre l'occupant français et massacrent les soldats de la garnison à Bruges.<p>
+  </head>
+  <body>
+<h1>1897 </h1> <p> L'écrivain irlandais Abraham Stoker, dit Bram Stoker, publie "Dracula".</p>
+<h1>1804 </h1> <p> Un sénatus-consulte établit l'Empire et promulgue la Constitution de l'an XII. Napoléon Bonaparte échange son titre de Premier Consul contre celui d'Empereur.</p>
+<h1>1302 </h1> <p> Les Flamands se révoltent contre l'occupant français et massacrent les soldats de la garnison à Bruges.</p>
 
 </body>
 </html>

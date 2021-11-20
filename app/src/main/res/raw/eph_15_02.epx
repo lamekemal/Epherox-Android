@@ -1,29 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1896 </h1> <p> Outré par l’affaire Dreyfus, le Juif hongrois Theodor Herzl publie "l’État juif", un ouvrage qui prône l’établissement d’un territoire juif indépendant en Palestine.<p>
-</h1>1794 </h1> <p> La marine française adopte le drapeau tricolore, à l'instigation de la Convention.<p>
-</h1>1710 </h1> <p> Naissance de Louis XV.<p>
-</h1>1564 </h1> <p> Naissance de Galilei, qui mettra au point la lunette astronomique qui porte son nom. Il découvrit les astres, observa les anneaux de Saturne, la rotation du soleil et de la Terre...<p>
-</h1>1113 </h1> <p> Peu de temps après la prise de Jérusalem par les croisés, le pape Pascal II reconnaît l’ordre des Hospitaliers de Saint-Jean-de-Jérusalem et le place sous la protection du Saint-Siège.<p>
+  </head>
+  <body>
+<h1>1896 </h1> <p> Outré par l’affaire Dreyfus, le Juif hongrois Theodor Herzl publie "l’État juif", un ouvrage qui prône l’établissement d’un territoire juif indépendant en Palestine.</p>
+<h1>1794 </h1> <p> La marine française adopte le drapeau tricolore, à l'instigation de la Convention.</p>
+<h1>1710 </h1> <p> Naissance de Louis XV.</p>
+<h1>1564 </h1> <p> Naissance de Galilei, qui mettra au point la lunette astronomique qui porte son nom. Il découvrit les astres, observa les anneaux de Saturne, la rotation du soleil et de la Terre...</p>
+<h1>1113 </h1> <p> Peu de temps après la prise de Jérusalem par les croisés, le pape Pascal II reconnaît l’ordre des Hospitaliers de Saint-Jean-de-Jérusalem et le place sous la protection du Saint-Siège.</p>
 
 </body>
 </html>

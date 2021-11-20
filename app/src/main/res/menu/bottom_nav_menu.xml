@@ -11,13 +11,13 @@
     <item
         android:id="@+id/hit_month"
         app:showAsAction="always"
-        android:icon="@drawable/ic_timelapse_black_24dp"
+        android:icon="@drawable/ic_baseline_topic_24"
         android:title="@string/histoir_mois" />
 
     <item
         android:id="@+id/eph_game"
         app:showAsAction="always"
-        android:icon="@drawable/ic_videogame_asset_black_24dp"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
         android:title="@string/jeux_menu" />
 
 </menu>

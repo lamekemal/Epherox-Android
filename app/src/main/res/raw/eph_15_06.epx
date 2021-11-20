@@ -1,26 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ephemeride</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1215. Les barons anglais imposent au roi Jean d’Angleterre (dit Jean Sans Terre) un traité nommé Magna Carta ou Grande Charte. Ce traité limite les prérogatives du souverain et est constitué comme la base du parlementarisme anglais actuel.<p>
-</h1>1924. Une grande partie des 250 000 indiens d’Amérique obtiennent enfin la pleine citoyenneté américaine. C’est le début d’une certaine reconnaissance légale du statut des « premiers américains », après plusieurs siècles de sujétion.<p>
-</h1>1977. L’Espagne connait ses premières élections libres depuis 1936. Les partis modérés (UCD </h1> <p> Centre droit et PSOE </h1> <p> gauche socialiste) s’y taillent la part du lion, signe du retour à la démocratie après prés de 40 ans de franquisme.<p>
+  </head>
+  <body>
+<h1>1215 </h1>
+<p>Les barons anglais imposent au roi Jean d’Angleterre (dit Jean Sans Terre) un traité nommé Magna Carta ou Grande Charte. Ce traité limite les prérogatives du souverain et est constitué comme la base du parlementarisme anglais actuel.</p>
+<h1>1924 </h1>
+<p>Une grande partie des 250 000 indiens d’Amérique obtiennent enfin la pleine citoyenneté américaine. C’est le début d’une certaine reconnaissance légale du statut des « premiers américains », après plusieurs siècles de sujétion.</p>
+<h1>1977</h1>
+<p> L’Espagne connait ses premières élections libres depuis 1936. Les partis modérés (UCD Centre droit et PSOE gauche socialiste) s’y taillent la part du lion, signe du retour à la démocratie après prés de 40 ans de franquisme.</p>
 </body>
 </html>

@@ -1,29 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1899 </h1> <p> Le président de la République Emile Loubet, suivant l'avis de son président du Conseil, Waldeck-Rousseau, gracie Alfred Dreyfus, qui avait été condamné quelques jours auparavant à 10 ans de réclusion lors de la révision de son procès.<p>
-</h1>1783 </h1> <p> Devant la cour réunie par un Louis XVI féru d'inventions, les deux frères Montgolfier réussissent l'exploit de faire voler un ballon de 400 mètres cubes.<p>
-</h1>1440 </h1> <p> Gilles de Rais, le fidèle compagnon d'armes de Jeanne d'Arc est accusé de plusieurs centaines de meurtres.<p>
-</h1>1356 </h1> <p> L'armée française est écrasée par les archers anglais lors de la bataille de Poitiers.<p>
-</h1>480 </h1> <p> Entouré de sept cents volontaires spartiates, thébains et platéens, Léonidas Ier, roi de Sparte, combat héroïquement l'armée perse aux Thermopyles, permettant à l'armée grecque de battre en retraite.<p>
+  </head>
+  <body>
+<h1>1899 </h1> <p> Le président de la République Emile Loubet, suivant l'avis de son président du Conseil, Waldeck-Rousseau, gracie Alfred Dreyfus, qui avait été condamné quelques jours auparavant à 10 ans de réclusion lors de la révision de son procès.</p>
+<h1>1783 </h1> <p> Devant la cour réunie par un Louis XVI féru d'inventions, les deux frères Montgolfier réussissent l'exploit de faire voler un ballon de 400 mètres cubes.</p>
+<h1>1440 </h1> <p> Gilles de Rais, le fidèle compagnon d'armes de Jeanne d'Arc est accusé de plusieurs centaines de meurtres.</p>
+<h1>1356 </h1> <p> L'armée française est écrasée par les archers anglais lors de la bataille de Poitiers.</p>
+<h1>480 </h1> <p> Entouré de sept cents volontaires spartiates, thébains et platéens, Léonidas Ier, roi de Sparte, combat héroïquement l'armée perse aux Thermopyles, permettant à l'armée grecque de battre en retraite.</p>
 
 </body>
 </html>

@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1881</h1> <p> Le ministre de l’Instruction Publique français Jules Ferry fait voter une loi instaurant la gratuité de l’école publique. Sont ainsi posées les bases de l’enseignement public et laïc de la IIIe République.<p>
-</h1>1940</h1> <p> Philippe Pétain, maréchal de France et jusque là vice président du conseil du cabinet Reynaud, est nommé Président du conseil. Il va d’emblée consacrer ses efforts à l’obtention d’un armistice avec les allemands qui ont pris Paris deux jours plus tôt.<p>
-</h1>1963</h1> <p>La cosmonaute soviétique Valentina Terechkova, âgée de 26 ans, est la première femme à effectuer un voyage spatial. Elle effectuera 48 révolutions autour de la Terre en 71 heures, à bord d’une capsule Vostok.<p>
+  </head>
+  <body>
+<h1>1881</h1> <p> Le ministre de l’Instruction Publique français Jules Ferry fait voter une loi instaurant la gratuité de l’école publique. Sont ainsi posées les bases de l’enseignement public et laïc de la IIIe République.</p>
+<h1>1940</h1> <p> Philippe Pétain, maréchal de France et jusque là vice président du conseil du cabinet Reynaud, est nommé Président du conseil. Il va d’emblée consacrer ses efforts à l’obtention d’un armistice avec les allemands qui ont pris Paris deux jours plus tôt.</p>
+<h1>1963</h1> <p>La cosmonaute soviétique Valentina Terechkova, âgée de 26 ans, est la première femme à effectuer un voyage spatial. Elle effectuera 48 révolutions autour de la Terre en 71 heures, à bord d’une capsule Vostok.</p>
 </body>
 </html>

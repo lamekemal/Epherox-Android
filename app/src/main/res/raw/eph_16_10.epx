@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1978 </h1> <p> Le cardinal Karol Wojtyla, archevêque de Cracovie, est élu pape, devenant Jean Paul II.<p>
-</h1>1964 </h1> <p> La Chine fait exploser sa première bombe atomique, devenant ainsi la 5e puissance nucléaire mondiale.<p>
-</h1>1813 </h1> <p> L'armée napoléonienne est battue à Leipzig dans la "Bataille des Nations".<p>
-</h1>1793 </h1> <p> La reine de France Marie-Antoinette est guillotinée.<p>
+  </head>
+  <body>
+<h1>1978 </h1> <p> Le cardinal Karol Wojtyla, archevêque de Cracovie, est élu pape, devenant Jean Paul II.</p>
+<h1>1964 </h1> <p> La Chine fait exploser sa première bombe atomique, devenant ainsi la 5e puissance nucléaire mondiale.</p>
+<h1>1813 </h1> <p> L'armée napoléonienne est battue à Leipzig dans la "Bataille des Nations".</p>
+<h1>1793 </h1> <p> La reine de France Marie-Antoinette est guillotinée.</p>
+    <h1>1094 </h1> <p> Les évêques excommunient le roi de France Philippe Ier au nom du pape Urbain II. </p>
 </body>
 </html>
-1094 </h1> <p> Les évêques excommunient le roi de France Philippe Ier au nom du pape Urbain II. <p>

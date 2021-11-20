@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1991 </h1> <p> Alors que le président de l'URSS Mikhaïl Gorbatchev est en vacances en Crimée, un comité de communistes conservateurs tente un coup d'Etat, que Boris Eltsine fera échouer.<p>
-</h1>1942 </h1> <p> La tentative de débarquement des troupes alliés sur les plages de Dieppe (Haute-Normandie), se termine par un échec.<p>
-</h1>14 </h1> <p> Mot de l'empereur romain Auguste.<p>
+  </head>
+  <body>
+<h1>1991 </h1> <p> Alors que le président de l'URSS Mikhaïl Gorbatchev est en vacances en Crimée, un comité de communistes conservateurs tente un coup d'Etat, que Boris Eltsine fera échouer.</p>
+<h1>1942 </h1> <p> La tentative de débarquement des troupes alliés sur les plages de Dieppe (Haute-Normandie), se termine par un échec.<p>
+<h1>14 </h1> <p> Mot de l'empereur romain Auguste.</p>
 
 </body>
 </html>

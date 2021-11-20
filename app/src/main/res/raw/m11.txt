@@ -1,2 +1,40 @@
-﻿Historique du mois 
-Ce mois a reçu son nom de la place qu’il occupait dans l’année de Romulus, il était le neuvième ; il n’est plus que le onzième, depuis l’époque de la réforme du calendrier romain par Numa. Les Egyptiens, au mois d’Athyr, qui répond au mois de novembre, célébraient pendant quatre jours, après le 17 de ce mois, une fête lugubre en l’honneur du deuil de la déesse Isis, affligée de la perte d’Osiris son frère, que son mari Typhon avait tué. Cette fête s’appelait la recherche d’Osiris.
+﻿<meta charset="utf-8">
+<title>Citations</title>
+<style type="text/css">
+h1 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+<h2> Ce mois a reçu son nom de la place qu’il occupait dans l’année de Romulus, il était le neuvième ; il n’est plus que le onzième, depuis l’époque de la réforme du calendrier romain par Numa. Les Egyptiens, au mois d’Athyr, qui répond au mois de novembre, célébraient pendant quatre jours, après le 17 de ce mois, une fête lugubre en l’honneur du deuil de la déesse Isis, affligée de la perte d’Osiris son frère, que son mari Typhon avait tué. Cette fête s’appelait la recherche d’Osiris.
+ </h2>
+
+<strong><br></strong>
+</body>
+</html>

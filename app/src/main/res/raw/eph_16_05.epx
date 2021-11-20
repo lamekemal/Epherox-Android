@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1920 </h1> <p> Sous le pontificat de Benoît XV, Jeanne d’Arc est reconnue par l’Eglise comme Sainte.<p>
-</h1>1843 </h1> <p> Durant la conquête de l'Algérie, un escadron de 500 hommes commandé par le duc d'Aumale s'empare de la smala de l'émir Abd el-Kader.<p>
-</h1>1770 </h1> <p> Marie-Antoinette, fille de l'empereur François Ier de Lorraine et de Marie-Thérèse d'Autriche, et le dauphin Louis, petit-fils de Louis XV, se marient à Versailles.<p>
-</h1>1717 </h1> <p> Voltaire, dont les écrits satiriques s’en prennent à la vie intime de Philippe d'Orléans, est envoyé à la Bastille pour outrage au Régent.<p>
-</h1>1703 </h1> <p> Le tsar Pierre Ier le Grand fonde une nouvelle capitale sous le nom de St-Petersburg.<p>
+  </head>
+  <body>
+<h1>1920 </h1> <p> Sous le pontificat de Benoît XV, Jeanne d’Arc est reconnue par l’Eglise comme Sainte.</p>
+<h1>1843 </h1> <p> Durant la conquête de l'Algérie, un escadron de 500 hommes commandé par le duc d'Aumale s'empare de la smala de l'émir Abd el-Kader.</p>
+<h1>1770 </h1> <p> Marie-Antoinette, fille de l'empereur François Ier de Lorraine et de Marie-Thérèse d'Autriche, et le dauphin Louis, petit-fils de Louis XV, se marient à Versailles.</p>
+<h1>1717 </h1> <p> Voltaire, dont les écrits satiriques s’en prennent à la vie intime de Philippe d'Orléans, est envoyé à la Bastille pour outrage au Régent.</p>
+<h1>1703 </h1> <p> Le tsar Pierre Ier le Grand fonde une nouvelle capitale sous le nom de St-Petersburg.</p>
 </body>
 </html>

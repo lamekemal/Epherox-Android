@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"/>
 <title>Document sans nom</title>
 <style type="text/css">
 h1 {
@@ -18,10 +18,10 @@ p {
 </style>
 
 </head>
-</body>
-</h1>1974 </h1> <p> Coup d'Etat militaire à Chypre</h1> <p> des officiers grecs chassent le président, Mgr Makarios.<p>
-</h1>1796 </h1> <p> Après l’exécution des principaux dirigeants, Charette et Stofflet, le Directoire annonce la fin de la guerre de Vendée.<p>
-</h1>1240 </h1> <p> Les Suédois sont battus à la bataille de la Neva et repoussés par le grand-prince de Novgorod Alexandre Nevski.<p>
-</h1>1099 </h1> <p> Partis de France en 1096 à l'appel du pape Urbain II, les croisés emmenés par Godefroi de Bouillon et le comte de Toulouse, prennent Jérusalem.<p>
+<body>
+<h1>1974 </h1> <p> Coup d'Etat militaire à Chypre des officiers grecs chassent le président, Mgr Makarios.</p>
+<h1>1796 </h1> <p> Après l’exécution des principaux dirigeants, Charette et Stofflet, le Directoire annonce la fin de la guerre de Vendée.</p>
+<h1>1240 </h1> <p> Les Suédois sont battus à la bataille de la Neva et repoussés par le grand-prince de Novgorod Alexandre Nevski.</p>
+<h1>1099 </h1> <p> Partis de France en 1096 à l'appel du pape Urbain II, les croisés emmenés par Godefroi de Bouillon et le comte de Toulouse, prennent Jérusalem.</p>
 </body>
 </html>

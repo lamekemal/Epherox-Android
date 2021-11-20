@@ -32,10 +32,12 @@
     <string name="world_hist">Histoire (Monde)</string>
     <string name="worl_cult">Culture étrangère</string>
     <string name="settings">Paramètres</string>
-    <string name="tab_eph">Ephemeride</string>
+    <string name="tab_eph">Ephemeride du </string>
     <string name="tab_naiss">Naissances Célèbres</string>
     <string name="tab_dec">Décès Célèbres</string>
     <string name="tab_other">Autres</string>
     <string name="tab_natf">Fête Nationale</string>
+    <string name="datePiker_text">Sélectionner une date</string>
+    <string name="mouth_htext">Histoire du mois de </string>
 
 </resources>

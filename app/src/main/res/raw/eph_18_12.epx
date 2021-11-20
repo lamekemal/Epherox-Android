@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1994 </h1> <p> Jean-Marie Chauvet, Éliette Brunel et Christian Hillaire découvrent par hasard une grotte préhistorique sur le cirque d’Estre enArdèche<p>
-</h1>1944 </h1> <p> Conformément aux souhaits du général de Gaulle, le premier numéro du quotidien du soir "Le Monde" sort en kiosque.<p>
-</h1>1737 </h1> <p> Le célèbre luthier Antonio Stradivarius meurt à Crémone (Italie) à l'âge de 93 ans.<p>
+  </head>
+  <body>
+<h1>1994 </h1> <p> Jean-Marie Chauvet, Éliette Brunel et Christian Hillaire découvrent par hasard une grotte préhistorique sur le cirque d’Estre enArdèche</p>
+<h1>1944 </h1> <p> Conformément aux souhaits du général de Gaulle, le premier numéro du quotidien du soir "Le Monde" sort en kiosque.</p>
+<h1>1737 </h1> <p> Le célèbre luthier Antonio Stradivarius meurt à Crémone (Italie) à l'âge de 93 ans.</p>
 
 </body>
 </html>

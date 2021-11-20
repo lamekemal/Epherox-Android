@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1871 </h1> <p> Adolphe Thiers devient Président du conseil après la chute du second empire et la défaite face aux prussiens.<p>
-</h1>1863 </h1> <p> Le suisse Jean-Henri Dunant fonde le Comité international de secours aux blessés de guerre, la Croix-Rouge.<p>
-</h1>1852 </h1> <p> Louis-Napoléon Bonaparte, alors Président de la république, décrète la censure sur la presse.<p>
-</h1>1673 </h1> <p> Victime d'un malaise sur scène, Molière meurt à l'issu de la quatrième représentation du "Malade imaginaire", à 59 ans.<p>
+  </head>
+  <body>
+<h1>1871 </h1> <p> Adolphe Thiers devient Président du conseil après la chute du second empire et la défaite face aux prussiens.</p>
+<h1>1863 </h1> <p> Le suisse Jean-Henri Dunant fonde le Comité international de secours aux blessés de guerre, la Croix-Rouge.</p>
+<h1>1852 </h1> <p> Louis-Napoléon Bonaparte, alors Président de la république, décrète la censure sur la presse.</p>
+<h1>1673 </h1> <p> Victime d'un malaise sur scène, Molière meurt à l'issu de la quatrième représentation du "Malade imaginaire", à 59 ans.</p>
 </body>
 </html>

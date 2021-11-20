@@ -1,2 +1,40 @@
-﻿Historique du mois 
-Romulus composa l’année de dix mois ; Numa Pompilus y ajouta ceux de janvier et février. Les calendes de janvier étaient particulièrement consacrées au dieu Janus, dont les deux visages regardaient l’année qui venait de finir et celle où l’on entrait. On offrait à ce dieu, dans le cours de la première journée, le gâteau nommé janual, des dattes, des figues et du miel ; les artistes et les artisans ébauchaient la matière de leurs ouvrages, persuadés que le travail de ce jour leur assurait une année favorable. On se visitait, on s’adressait des voeux, on se gardait de laisser échapper un propos de mauvais augure, on s’envoyait des présents ; le soir on se régalait en l’honneur de Janus.
+﻿<meta charset="utf-8">
+<title>Citations</title>
+<style type="text/css">
+h1 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+<h2> Romulus composa l’année de dix mois ; Numa Pompilus y ajouta ceux de janvier et février. Les calendes de janvier étaient particulièrement consacrées au dieu Janus, dont les deux visages regardaient l’année qui venait de finir et celle où l’on entrait. On offrait à ce dieu, dans le cours de la première journée, le gâteau nommé janual, des dattes, des figues et du miel ; les artistes et les artisans ébauchaient la matière de leurs ouvrages, persuadés que le travail de ce jour leur assurait une année favorable. On se visitait, on s’adressait des voeux, on se gardait de laisser échapper un propos de mauvais augure, on s’envoyait des présents ; le soir on se régalait en l’honneur de Janus.
+ </h2>
+
+<strong><br></strong>
+</body>
+</html>
