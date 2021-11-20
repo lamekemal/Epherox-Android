@@ -1,30 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1945 </h1> <p> Le colonel Juan Perón est porté au pouvoir par un coup d'Etat en Argentine.<p>
-</h1>1933 </h1> <p> Fuyant l'Allemagne nazie, le physicien Albert Einstein se réfugie aux Etats-Unis.<p>
-</h1>1854 </h1> <p> Les troupes franco-britanniques mettent le siège devant Sébastopol, en Crimée.<p>
-</h1>1797 </h1> <p> La France et l'Autriche signent la paix de Campo-Formio.<p>
-</h1>1793 </h1> <p> Révolution française</h1> <p> défaite de l'armée catholique et royale vendéenne à Cholet.<p>
-</h1>1705 </h1> <p> Décès d'Anne Lenclos, dite Ninon de Lenclos<p>
-</h1>1662 </h1> <p> Le roi Charles II d'Angleterre vend Dunkerque à la France. <p>
+  </head>
+  <body>
+<h1>1945 </h1> <p> Le colonel Juan Perón est porté au pouvoir par un coup d'Etat en Argentine.</p>
+<h1>1933 </h1> <p> Fuyant l'Allemagne nazie, le physicien Albert Einstein se réfugie aux Etats-Unis.</p>
+<h1>1854 </h1> <p> Les troupes franco-britanniques mettent le siège devant Sébastopol, en Crimée.</p>
+<h1>1797 </h1> <p> La France et l'Autriche signent la paix de Campo-Formio.</p>
+<h1>1793 </h1> <p> Révolution française défaite de l'armée catholique et royale vendéenne à Cholet.</p>
+<h1>1705 </h1> <p> Décès d'Anne Lenclos, dite Ninon de Lenclos</p>
+<h1>1662 </h1> <p> Le roi Charles II d'Angleterre vend Dunkerque à la France. </p>
 </body>
 </html>

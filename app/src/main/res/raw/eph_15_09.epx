@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ephemeride</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1949 </h1> <p> A 73 ans, le chrétien-démocrate Konrad Adenauer devient le premier chancelier de la République fédérale d'Allemagne (RFA).<p>
-</h1>1940 </h1> <p> Le gouvernement de Vichy fait arrêter Léon Blum. Après avoir vainement tenté de le faire condamner pour une supposée responsabilité dans la défaite, le gouvernement de Vichy remettra Blum aux allemands, qui sera déporté à Buchenwald.<p>
-</h1>1935 </h1> <p> A Nuremberg, pendant le congrès du parti nazi, Hitler promulgue ses premières lois antisémites.<p>
-</h1>1916 </h1> <p> Pendant la Première Guerre mondiale, l'armée britannique utilise pour la première fois des blindés à Flers (dans la Somme).<p>
-</h1>1777 </h1> <p> Le Congrès américain adopte les "Articles de Confédération", qui aboutiront à la création des Etats-Unis d'Amérique.<p>
+  </head>
+  <body>
+<h1>1949 </h1> <p> A 73 ans, le chrétien-démocrate Konrad Adenauer devient le premier chancelier de la République fédérale d'Allemagne (RFA).</p>
+<h1>1940 </h1> <p> Le gouvernement de Vichy fait arrêter Léon Blum. Après avoir vainement tenté de le faire condamner pour une supposée responsabilité dans la défaite, le gouvernement de Vichy remettra Blum aux allemands, qui sera déporté à Buchenwald.</p>
+<h1>1935 </h1> <p> A Nuremberg, pendant le congrès du parti nazi, Hitler promulgue ses premières lois antisémites.</p>
+<h1>1916 </h1> <p> Pendant la Première Guerre mondiale, l'armée britannique utilise pour la première fois des blindés à Flers (dans la Somme).</p>
+<h1>1777 </h1> <p> Le Congrès américain adopte les "Articles de Confédération", qui aboutiront à la création des Etats-Unis d'Amérique.</p>
 </body>
 </html>

@@ -1,3 +1,38 @@
+<meta charset="utf-8">
+<title>Citations</title>
+<style type="text/css">
+h1 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+
+<h1>
 « N'est-il pas honteux que les fanatiques aient du zèle, et que les sаgеs n'еn аiеnt раs ? Il fаut êtrе рrudеnt, mаis nοn раs timidе. »
-Voltaire
+<strong> Voltaire
+ </strong> </h1>
+
+<strong><br></strong>
+</body>
+</html>
  

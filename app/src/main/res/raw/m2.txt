@@ -1,2 +1,40 @@
-﻿Historique du mois 
-le second des deux mois ajoutés par le roi Numa au calendrier des Romains fut consacré à Neptune, parce que les pluies, à Rome, étaient très abondantes à cette époque de l’année. Il faut remarquer que, dans le calendrier républicain, février correspond à pluviôse, mois des pluies. On représente ce mois sous la figure « d’une femme vêtue de bleu, la tunique relevée par une ceinture, tenant en ses mains un canard, ayant près d’elle une urne qui verse de l’eau en abondance et à ses pieds un héron et un poisson. » Tous ces symboles indiquent le temps des pluies.
+﻿<meta charset="utf-8">
+<title>Citations</title>
+<style type="text/css">
+h1 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+<h2> le second des deux mois ajoutés par le roi Numa au calendrier des Romains fut consacré à Neptune, parce que les pluies, à Rome, étaient très abondantes à cette époque de l’année. Il faut remarquer que, dans le calendrier républicain, février correspond à pluviôse, mois des pluies. On représente ce mois sous la figure « d’une femme vêtue de bleu, la tunique relevée par une ceinture, tenant en ses mains un canard, ayant près d’elle une urne qui verse de l’eau en abondance et à ses pieds un héron et un poisson. » Tous ces symboles indiquent le temps des pluies.
+ </h2>
+
+<strong><br></strong>
+</body>
+</html>

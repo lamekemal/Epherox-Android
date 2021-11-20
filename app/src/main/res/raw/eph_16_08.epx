@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1977 </h1> <p> Le chanteur Elvis Presley, 42 ans, est victime d'un arrêt cardiaque à Graceland, sa maison de Menphis (Tennessee).<p>
-</h1>1960 </h1> <p> L'île méditerranéenne de Chypre devient une République indépendante.<p>
-</h1>1924 </h1> <p> Le plan Dawes fixe un arrangement au paiement des réparations allemandes dues après la Première Guerre mondiale.<p>
+  </head>
+  <body>
+<h1>1977 </h1> <p> Le chanteur Elvis Presley, 42 ans, est victime d'un arrêt cardiaque à Graceland, sa maison de Menphis (Tennessee).</p>
+<h1>1960 </h1> <p> L'île méditerranéenne de Chypre devient une République indépendante.</p>
+<h1>1924 </h1> <p> Le plan Dawes fixe un arrangement au paiement des réparations allemandes dues après la Première Guerre mondiale.</p>
 </body>
 </html>

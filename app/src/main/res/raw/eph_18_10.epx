@@ -1,29 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1867 </h1> <p> L'Alaska, qui appartenait à la Russie, devient officiellement possession des Etats-Unis.<p>
-</h1>1748 </h1> <p> Traité d'Aix-la-Chapelle</h1> <p> fin de la Guerre de Succession d'Autriche.<p>
-</h1>1685 </h1> <p> Le roi Louis XIV signe l'Edit de Fontainebleau, qui révoque l'Edit de Nantes signé en 1598 par son grand-père Henri IV, et provoque un exode des protestants français.<p>
-</h1>1534 </h1> <p> Début de l'Affaire des placards</h1> <p> des écrits séditieux protestants sont placardés sur les principales places de Paris, motivant les premières persécutions sous François Ier.<p>
-</h1>1009 </h1> <p> Le calife fatimide Al-Hakim bi-Amr Allah détruit l'édifice originel de l'église du Saint-Sépulcre, dans le cadre de ses persécutions contre les juifs et les chrétiens. <p>
+  </head>
+  <body>
+<h1>1867 </h1> <p> L'Alaska, qui appartenait à la Russie, devient officiellement possession des Etats-Unis.</p>
+<h1>1748 </h1> <p> Traité d'Aix-la-Chapelle fin de la Guerre de Succession d'Autriche.</p>
+<h1>1685 </h1> <p> Le roi Louis XIV signe l'Edit de Fontainebleau, qui révoque l'Edit de Nantes signé en 1598 par son grand-père Henri IV, et provoque un exode des protestants français.</p>
+<h1>1534 </h1> <p> Début de l'Affaire des placards des écrits séditieux protestants sont placardés sur les principales places de Paris, motivant les premières persécutions sous François Ier.</p>
+<h1>1009 </h1> <p> Le calife fatimide Al-Hakim bi-Amr Allah détruit l'édifice originel de l'église du Saint-Sépulcre, dans le cadre de ses persécutions contre les juifs et les chrétiens. </p>
 
 </body>
 </html>

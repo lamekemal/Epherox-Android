@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1939 </h1> <p> la Bohème Moravie est envahie par l’Allemagne nazie, malgré les accords de Munich.<p>
-</h1>1917 </h1> <p> Face à la révolte qui gronde dans toutes les grandes villes de Russie, le tsar Nicolas II abdique.<p>
-</h1>1850 </h1> <p> Promulguée sous l’impulsion d’Alfred de Falloux, alors ministre de l’Instruction publique, une nouvelle loi instaure la liberté de l’enseignement secondaire.<p>
-- 44 </h1> <p> Ides de mars. Jules César, qui vient de se faire proclamer dictateur à vie, est assassiné, en pleine séance du Sénat par une cinquantaine de sénateurs partisans de la restauration de la république.<p>
+  </head>
+  <body>
+<h1>1939 </h1> <p> la Bohème Moravie est envahie par l’Allemagne nazie, malgré les accords de Munich.</p>
+<h1>1917 </h1> <p> Face à la révolte qui gronde dans toutes les grandes villes de Russie, le tsar Nicolas II abdique.</p>
+<h1>1850 </h1> <p> Promulguée sous l’impulsion d’Alfred de Falloux, alors ministre de l’Instruction publique, une nouvelle loi instaure la liberté de l’enseignement secondaire.</p>
+  <h1>- 44 </h1> <p> Ides de mars. Jules César, qui vient de se faire proclamer dictateur à vie, est assassiné, en pleine séance du Sénat par une cinquantaine de sénateurs partisans de la restauration de la république.</p>
 </body>
 </html>

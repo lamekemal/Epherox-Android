@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1941 </h1> <p> Pendant l'occupation allemande, 75 otages juifs et communistes sont fusillés au mont Valérien, un ancien fort à l'ouest de Paris, dominant le Bois de Boulogne.<p>
-</h1>1917 </h1> <p> Les bolcheviks russes signent un armistice avec les Allemands et les Autrichiens à Brest-Litovsk (Biélorussie).<p>
-</h1>1840 </h1> <p> Les cendres de Napoléon Ier sont transférées sous le dôme des Invalides.<p>
-</h1>1809 </h1> <p> L'empereur Napoléon Ier divorce de Joséphine, épousée 13 ans plus tôt, pour raison d'État.<p>
-</h1>1791 </h1> <p> Les 10 premiers amendements à la Constitution des Etats-Unis sont ratifiés.<p>
+  </head>
+  <body>
+<h1>1941 </h1> <p> Pendant l'occupation allemande, 75 otages juifs et communistes sont fusillés au mont Valérien, un ancien fort à l'ouest de Paris, dominant le Bois de Boulogne.</p>
+<h1>1917 </h1> <p> Les bolcheviks russes signent un armistice avec les Allemands et les Autrichiens à Brest-Litovsk (Biélorussie).</p>
+<h1>1840 </h1> <p> Les cendres de Napoléon Ier sont transférées sous le dôme des Invalides.</p>
+<h1>1809 </h1> <p> L'empereur Napoléon Ier divorce de Joséphine, épousée 13 ans plus tôt, pour raison d'État.</p>
+<h1>1791 </h1> <p> Les 10 premiers amendements à la Constitution des Etats-Unis sont ratifiés.</p>
 </body>
 </html>

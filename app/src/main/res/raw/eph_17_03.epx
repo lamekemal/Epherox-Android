@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1861 </h1> <p> Le premier parlement italien réunit à Turin consacre le roi de Piémont-Sardaigne, Victor-Emmanuel, comme roi de l'Italie unifiée.<p>
-</h1>1526 </h1> <p> Prisonnier de Charles Quint depuis sa défaite à Pavie, François Ier est libéré de sa prison de Madrid.<p>
-</h1>180 </h1> <p> L'empereur Marc-Aurèle meurt à Vienne de la peste au cours d’une campagne pour étendre les frontières de l’Empire Romain vers le nord.<p>
+  </head>
+  <body>
+<h1>1861 </h1> <p> Le premier parlement italien réunit à Turin consacre le roi de Piémont-Sardaigne, Victor-Emmanuel, comme roi de l'Italie unifiée.</p>
+<h1>1526 </h1> <p> Prisonnier de Charles Quint depuis sa défaite à Pavie, François Ier est libéré de sa prison de Madrid.</p>
+<h1>180 </h1> <p> L'empereur Marc-Aurèle meurt à Vienne de la peste au cours d’une campagne pour étendre les frontières de l’Empire Romain vers le nord.</p>
 </body>
 </html>

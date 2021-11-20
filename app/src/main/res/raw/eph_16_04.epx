@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1917 </h1> <p> Défaite française aux chemins des dames. Nivelle est remplacé par Pétain.<p>
-</h1>1917 </h1> <p> Lénine rentre en Russie après 10 ans d'exil.<p>
-</h1>1071 </h1> <p> Le Normand Robert Guiscard prend Bari et chasse les Byzantins de l'Italie du Sud.<p>
+  </head>
+  <body>
+<h1>1917 </h1> <p> Défaite française aux chemins des dames. Nivelle est remplacé par Pétain.</p>
+<h1>1917 </h1> <p> Lénine rentre en Russie après 10 ans d'exil.</p>
+<h1>1071 </h1> <p> Le Normand Robert Guiscard prend Bari et chasse les Byzantins de l'Italie du Sud.</p>
 </body>
 </html>

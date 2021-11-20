@@ -1,26 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+      <title>Document sans nom</title>
+      <style type="text/css">
+        h1 {
+        color: #FFFFFF;
+        color: #FFFFFF;
+        }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+        p {
+        color: #FFFFFF;
+        color: #FFFFFF;
+        text-align: justify;
+        }
 
-</style>
+      </style>
 
-</head>
-</body>
-</h1>1789</h1> <p> Le Tiers-Etat par 490 voix contre 90 décide de se constituer en Assemblée Nationale. Bientôt rejointe par le Clergé et la Noblesse, elle sera la première assemblée parlementaire moderne de l’histoire de France.<p>
-</h1>1953</h1> <p> Berlin-Est est secouée par une révolte des ouvriers qui réclament des conditions de travail décentes. Le mouvement est rapidement écrasé par l’armée soviétique.<p>
-</h1>1972</h1> <p> A Washington, au siège du Parti Démocrate, cinq individus en train de poser des micros sont appréhendés par la Police. C’est le début de l’affaire du Watergate, qui va conduire à la démission du président Nixon deux ans plus tard.<p>
+    </head>
+  <body>
+<h1>1789</h1> <p> Le Tiers-Etat par 490 voix contre 90 décide de se constituer en Assemblée Nationale. Bientôt rejointe par le Clergé et la Noblesse, elle sera la première assemblée parlementaire moderne de l’histoire de France.</p>
+<h1>1953</h1> <p> Berlin-Est est secouée par une révolte des ouvriers qui réclament des conditions de travail décentes. Le mouvement est rapidement écrasé par l’armée soviétique.</p>
+<h1>1972</h1> <p> A Washington, au siège du Parti Démocrate, cinq individus en train de poser des micros sont appréhendés par la Police. C’est le début de l’affaire du Watergate, qui va conduire à la démission du président Nixon deux ans plus tard.</p>
 </body>
 </html>

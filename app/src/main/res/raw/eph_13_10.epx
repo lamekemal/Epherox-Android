@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
+<meta charset="utf-8"/>
+<title>Ephemeride</title>
 <style type="text/css">
 h1 {
 	color: #FFFFFF;
@@ -18,7 +18,7 @@ p {
 </style>
 
 </head>
-</body>
+<body>
 <h1>1946 </h1> <p> La constitution de la IVe République en France est ratifiée par référendum.</p>
 <h1>1943 </h1> <p> L'Italie déclare la guerre à l'Allemagne, son ancienne alliée de l'Axe.</p>
 <h1>1937 </h1> <p> Le IIIe Reich garantit l'inviolabilité de la Belgique.</p>

@@ -1,6 +1,7 @@
 package bj.archeos.epherox;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -39,15 +40,28 @@ public class BottomDrawerFragment extends BottomSheetDialogFragment {
                 int id = item.getItemId();
                 switch (id)
                 {
-                    case R.id.nav_chr:
+                    case R.id.nav_wh:
                         Toast.makeText(getActivity(),"1",Toast.LENGTH_LONG).show();
                         break;
                     case R.id.nav_clt:
                         Toast.makeText(getActivity(),"2",Toast.LENGTH_LONG).show();
                         break;
-                    case R.id.nav_game:
-                        Toast.makeText(getActivity(),"3",Toast.LENGTH_LONG).show();
+                    case R.id.navigation_home:
+                        Intent iCitation = new Intent(getContext(), MainActivity.class);
+                        iCitation.putExtra("fragmentRequest",1);
+                        startActivity(iCitation);
                         break;
+                    case R.id.nav_hm:
+                        Intent iMois = new Intent(getContext(), MainActivity.class);
+                        iMois.putExtra("fragmentRequest",2);
+                        startActivity(iMois);
+                        break;
+                    case R.id.nav_game:
+                        Toast.makeText(getActivity(),"2",Toast.LENGTH_LONG).show();
+                        break;
+                    //case R.id.nav_set:
+                    //    Toast.makeText(getActivity(),"Paramètre",Toast.LENGTH_LONG).show();
+                    //    break;
                 }
                 return false;
             }

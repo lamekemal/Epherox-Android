@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1962 </h1> <p> Les négociations concernant le règlement du conflit franco-algérien aboutissent à la signature des accords d'Evian, qui consacrent l'indépendance de l'Algérie.<p>
-</h1>1921 </h1> <p> Russie </h1> <p> après 10 jours d'affrontements, les troupes bolcheviques de Léon Trotski lancent l'assaut contre les mutins de Kronstadt. 900 marins sont exécutés tandis que 8000 parviennent à fuir vers la Finlande.<p>
-</h1>1871 </h1> <p> Les Parisiens, se sentant trahis par le gouvernement de Défense nationale qui a capitulé face aux Prussiens et s'est installé à Versailles, proclament la commune de Paris.<p>
-</h1>1793 </h1> <p> Le général français Dumouriez essuie une cuisante défaite à Neerwinden.<p>
+  </head>
+  <body>
+<h1>1962 </h1> <p> Les négociations concernant le règlement du conflit franco-algérien aboutissent à la signature des accords d'Evian, qui consacrent l'indépendance de l'Algérie.</p>
+<h1>1921 </h1> <p> Russie après 10 jours d'affrontements, les troupes bolcheviques de Léon Trotski lancent l'assaut contre les mutins de Kronstadt. 900 marins sont exécutés tandis que 8000 parviennent à fuir vers la Finlande.</p>
+<h1>1871 </h1> <p> Les Parisiens, se sentant trahis par le gouvernement de Défense nationale qui a capitulé face aux Prussiens et s'est installé à Versailles, proclament la commune de Paris.</p>
+<h1>1793 </h1> <p> Le général français Dumouriez essuie une cuisante défaite à Neerwinden.</p>
 </body>
 </html>

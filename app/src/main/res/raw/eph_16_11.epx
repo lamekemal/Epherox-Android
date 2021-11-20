@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1945 </h1> <p> Création de l’Unesco, l’Organisation des Nations Unies pour l’éducation, la science et la culture.<p>
-</h1>1920 </h1> <p> Fin de la guerre civile en Russie, après la défaite de la dernière armée "blanche", qui consacre la victoire des bolcheviks de Lénine.<p>
-</h1>1700</h1> <p>  Louis XIV désigne son petits-fils, futur Philippe V, roi d'Espagne. La guerre de succession commence.<p>
-</h1>1532 </h1> <p> Le dernier empereur inca, Atahualpa, est capturé par Pizarro, et condamné à mort.<p>
--414 </h1> <p> L'armée athénienne commandée par le stratège Nicias est mise en déroute en Sicile. Affaiblie, Athènes perdra la guerre face à Sparte.<p>
+  </head>
+  <body>
+<h1>1945 </h1> <p> Création de l’Unesco, l’Organisation des Nations Unies pour l’éducation, la science et la culture.</p>
+<h1>1920 </h1> <p> Fin de la guerre civile en Russie, après la défaite de la dernière armée "blanche", qui consacre la victoire des bolcheviks de Lénine.</p>
+<h1>1700</h1> <p>  Louis XIV désigne son petits-fils, futur Philippe V, roi d'Espagne. La guerre de succession commence.</p>
+<h1>1532 </h1> <p> Le dernier empereur inca, Atahualpa, est capturé par Pizarro, et condamné à mort.</p>
+  <h1> -414 </h1> <p> L'armée athénienne commandée par le stratège Nicias est mise en déroute en Sicile. Affaiblie, Athènes perdra la guerre face à Sparte.</p>
 </body>
 </html>

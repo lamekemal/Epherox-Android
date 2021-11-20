@@ -3,6 +3,8 @@ package bj.archeos.epherox;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.opengl.Visibility;
@@ -18,6 +20,8 @@ import android.widget.Toolbar;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomappbar.BottomAppBarTopEdgeTreatment;
+import com.google.android.material.datepicker.MaterialDatePicker;
+import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.shape.CutCornerTreatment;
@@ -26,40 +30,49 @@ import com.google.android.material.shape.ShapeAppearanceModel;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton floatingActionButton;
     BottomAppBar bottomAppBar;
-    Context mycrt;
     TabLayout tabLayout;
-    String tdDate = "02_07"; //today date format dd-mm
+    String tdDate; //today date format dd-mm
+    String longDateFormat; //date at long format
+    String tdMouth; //today date format dd-mm
+    String longMouthFormat; //date at long format
+    boolean isPremiumVersion = true;  //Variable for Apps Premium Version
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mycrt = this;
         setContentView(R.layout.activity_main);
         floatingActionButton = findViewById(R.id.fabHome);
         bottomAppBar = findViewById(R.id.bottomAppbar);
-        //main line for setting menu in bottom app bar
         setSupportActionBar(bottomAppBar);
-
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setNavigationBarColor(getResources().getColor(R.color. blanc));
+            getWindow().setNavigationBarColor(getResources().getColor(R.color. colorAccent));
         }
-
+        tdDate = new SimpleDateFormat("dd_MM", Locale.getDefault()).format(new Date());
+        longDateFormat = new SimpleDateFormat(" E d MMM", Locale.FRENCH).format(new Date());
+        tdMouth = new SimpleDateFormat("MM", Locale.getDefault()).format(new Date());
+        longMouthFormat = new SimpleDateFormat(" MMMM", Locale.FRENCH).format(new Date());
         tabLayout = findViewById(R.id.tabs);
+
+        //TabLayout listner for action
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                LoadEphxWithTab(getBaseContext(),tab.getPosition(),tdDate);
+                LoadEphxWithTab(getBaseContext(),(int) tab.getTag(),tdDate);
             }
 
             @Override
@@ -69,10 +82,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
-                LoadEphxWithTab(getBaseContext(),tab.getPosition(),tdDate);
+                LoadEphxWithTab(getBaseContext(),(int) tab.getTag(),tdDate);
             }
         });
 
+        //Bottom appbar left Navigation
         bottomAppBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,67 +95,112 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Reload apps home page
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"HOME BUTTON",Toast.LENGTH_LONG).show();
+                tdDate = new SimpleDateFormat("dd_MM", Locale.getDefault()).format(new Date());
+                longDateFormat = new SimpleDateFormat(" E d MMM", Locale.FRENCH).format(new Date());
+                tabLayout.removeAllTabs();
+                loadAllTab(getBaseContext(),tdDate);
             }
         });
 
+        //default action for apps on load
+        webViewInt();
         setUpBottomAppBarShapeAppearance();
+        loadAllTab(getBaseContext(),tdDate);
+        Intent intent = getIntent();
+        int fragmentOption = intent.getIntExtra("fragmentRequest",0);
+        fragmentRequest(fragmentOption);
+    }
 
+    void webViewInt(){
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        //String webdata = readephxFromFile(this, "eph_" + tdDate);
         myWebView.clearCache(true);
         myWebView.clearFormData();
         myWebView.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
-        //myWebView.loadDataWithBaseURL("ephrox://default",webdata, "text/html", "UTF-8","");
         myWebView.setBackgroundColor(Color.TRANSPARENT);
-        LoadEphxWithTab(getBaseContext(),4,tdDate);
-        LoadEphxWithTab(getBaseContext(),3,tdDate);
-        LoadEphxWithTab(getBaseContext(),2,tdDate);
-        LoadEphxWithTab(getBaseContext(),1,tdDate);
-        LoadEphxWithTab(getBaseContext(),0,tdDate);
     }
+
+    void loadAllTab(Context Ctx, String dateText){
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.tab_eph).concat(longDateFormat)).setTag(0));
+        LoadEphxWithTab(getBaseContext(),0,dateText);
+        if (checkEphxData(Ctx, "ncs_" + dateText)==true){
+            tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_naiss).setTag(1));
+        }
+        if (checkEphxData(Ctx, "dcs_" + dateText)==true){
+            tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_dec).setTag(2));
+        }
+        if (checkEphxData(Ctx, "fte_" + dateText)==true){
+            tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_natf).setTag(3));
+        }
+        if (checkEphxData(Ctx, "oth_" + dateText)==true){
+            tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_other).setTag(4));
+        }
+    }
+
+    void fragmentRequest(int requestText){
+        int citation = 1;
+        int month = 2;
+        //Toast.makeText(getApplicationContext(),String.valueOf(requestText),Toast.LENGTH_LONG).show();
+        if (requestText == citation){
+            Random r = new Random();
+            int low = 1;
+            int high = 40;
+            int resultRandom = r.nextInt(high-low) + low;
+            tabLayout.removeAllTabs();
+            loadCitation(getBaseContext(), resultRandom);
+        } else if (requestText == month){
+
+            tabLayout.removeAllTabs();
+            loadMouthHistory(getBaseContext(),tdMouth);
+        }
+    }
+
     void LoadEphxWithTab(Context Ctx, int TabId, String DateTexte){
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.clearCache(true);
+        myWebView.clearFormData();
+
        if (TabId == 0){
-           if ( setEphxView(Ctx, "eph_" + DateTexte) == true){
+           myWebView.loadUrl("about:blank");
+           if (isPremiumVersion && checkEphxData(Ctx, "eph_plus_" + DateTexte)){
+               setEphxView(Ctx, "eph_plus_" + DateTexte);
+           }else{
                setEphxView(Ctx, "eph_" + DateTexte);
-           }else {
-               //tab hide
-                tabLayout.getTabAt(0).setTabLabelVisibility(TabLayout.TAB_LABEL_VISIBILITY_UNLABELED);
            }
-
        }else if (TabId == 1){
-           if (  setEphxView(Ctx, "ncs_" + DateTexte) == true){
+           myWebView.loadUrl("about:blank");
+           if (checkEphxData(Ctx, "ncs_" + DateTexte)==true){
                setEphxView(Ctx, "ncs_" + DateTexte);
-           }else {
-               //tab hide
-               tabLayout.getTabAt(1).setTabLabelVisibility(TabLayout.TAB_LABEL_VISIBILITY_UNLABELED);
            }
-
        }else if (TabId == 2){
-           if (     setEphxView(Ctx, "dcs_" + DateTexte) == true){
+           myWebView.loadUrl("about:blank");
+           if (checkEphxData(Ctx, "dcs_" + DateTexte)==true){
                setEphxView(Ctx, "dcs_" + DateTexte);
-           }else {
-               //tab hide
-               tabLayout.getTabAt(2).setTabLabelVisibility(TabLayout.TAB_LABEL_VISIBILITY_UNLABELED);
            }
        }else if (TabId == 3){
-           if (setEphxView(Ctx, "fte_" + DateTexte) == true){
+           myWebView.loadUrl("about:blank");
+           if (checkEphxData(Ctx, "fte_" + DateTexte)==true){
                setEphxView(Ctx, "fte_" + DateTexte);
-           }else {
-               //tab hide
-               tabLayout.getTabAt(3).setTabLabelVisibility(TabLayout.TAB_LABEL_VISIBILITY_UNLABELED);
            }
        }else if (TabId == 4){
-           if (   setEphxView(Ctx, "oth_" + DateTexte) == true){
+           myWebView.loadUrl("about:blank");
+           if (checkEphxData(Ctx, "oth_" + DateTexte)==true){
                setEphxView(Ctx, "oth_" + DateTexte);
-           }else {
-               //tab hide
-               tabLayout.getTabAt(4).setTabLabelVisibility(TabLayout.TAB_LABEL_VISIBILITY_UNLABELED);
            }
        }
+   }
+
+    private boolean checkEphxData(Context context, String dateText){
+       if (readephxFromFile(context, dateText) ==null){
+           return false;
+       }  else if (readephxFromFile(context, dateText) =="NONE"){
+           return false;
+       } else{
+           return true;
+        }
    }
 
     private boolean setEphxView(Context context, String dateText){
@@ -155,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
             myWebView.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
             myWebView.loadDataWithBaseURL("ephrox://default",webdata, "text/html", "UTF-8","");
             myWebView.setBackgroundColor(Color.TRANSPARENT);
-            Log.v("WEBV", webdata);
+            //Log.v("WEBV", webdata);
             return false;
         }else {
             WebView myWebView = (WebView) findViewById(R.id.webview);
@@ -165,11 +224,12 @@ public class MainActivity extends AppCompatActivity {
             myWebView.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
             myWebView.loadDataWithBaseURL("ephrox://default",webdata, "text/html", "UTF-8","");
             myWebView.setBackgroundColor(Color.TRANSPARENT);
-            Log.v("WEBV", webdata);
+            //Log.v("WEBV", webdata);
             return true;
         }
     }
 
+    @org.jetbrains.annotations.Nullable
     private String readephxFromFile(Context context, String dateId) {
         try {
             int myID = getResourceID(dateId, "raw", getApplicationContext());
@@ -215,22 +275,74 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(@NotNull MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.citation:
-                String currentDate = new SimpleDateFormat("dd_MM", Locale.getDefault()).format(new Date());
-                Toast.makeText(getApplicationContext(),currentDate,Toast.LENGTH_LONG).show();
+                Random r = new Random();
+                int low = 1;
+                int high = 40;
+                int resultRandom = r.nextInt(high-low) + low;
+                tabLayout.removeAllTabs();
+                loadCitation(getBaseContext(), resultRandom);
                 return true;
             case R.id.hit_month:
-                Toast.makeText(getApplicationContext(),getPackageResourcePath(),Toast.LENGTH_LONG).show();
+                tabLayout.removeAllTabs();
+                loadMouthHistory(getBaseContext(),tdMouth);
                 return true;
             case R.id.eph_game:
-                Toast.makeText(getApplicationContext(),"JEUX EPH",Toast.LENGTH_LONG).show();
+                MaterialDatePicker datePicker = MaterialDatePicker.Builder.datePicker()
+                        .setSelection(MaterialDatePicker.todayInUtcMilliseconds())
+                        .setTitleText(R.string.datePiker_text)
+                        .setTheme(R.style.ThemeOverlay_App_DatePicker)
+                        .build();
+                datePicker.show(getSupportFragmentManager(), "tag");
+                datePicker.addOnPositiveButtonClickListener(new MaterialPickerOnPositiveButtonClickListener() {
+                    @Override
+                    public void onPositiveButtonClick(Object selection) {
+                        String dateValue =  new SimpleDateFormat("dd_MM", Locale.getDefault()).format(selection);
+                        tdDate = new SimpleDateFormat("dd_MM", Locale.getDefault()).format(selection);
+                        longDateFormat = new SimpleDateFormat(" E d MMM", Locale.FRENCH).format(selection);
+                        tabLayout.removeAllTabs();
+                        loadAllTab(getApplicationContext(),dateValue);
+                    }
+                });
+
+                datePicker.addOnNegativeButtonClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        tabLayout.removeAllTabs();
+                        loadAllTab(getBaseContext(),tdDate);
+                    }
+                });
+                datePicker.addOnCancelListener(new DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialog) {
+                        tabLayout.removeAllTabs();
+                        loadAllTab(getBaseContext(),tdDate);
+                    }
+                });
+                datePicker.addOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        tabLayout.removeAllTabs();
+                        loadAllTab(getBaseContext(),tdDate);
+                    }
+                });
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void loadMouthHistory(Context baseContext, String todayDate) {
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.mouth_htext).concat(longMouthFormat)).setTag(5));
+        setEphxView(baseContext, "m" + todayDate);
+    }
+
+    private void loadCitation(Context baseContext, int randomNumber) {
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.mouth_htext).concat(longMouthFormat)).setTag(5));
+        setEphxView(baseContext, "c".concat(Integer.toString(randomNumber)));
     }
 
     @Override
@@ -260,6 +372,5 @@ public class MainActivity extends AppCompatActivity {
         babBackground.setShapeAppearanceModel(
                 babBackground.getShapeAppearanceModel().toBuilder().setTopEdge(topEdge).build());
     }
-
 
 }

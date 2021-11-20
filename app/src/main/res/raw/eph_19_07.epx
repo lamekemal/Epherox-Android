@@ -1,28 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1961 </h1> <p> Les troupes tunisiennes envahissent la base navale de Bizerte, occupée par les Français.<p>
-</h1>1900 </h1> <p> La ligne numéro 1 du métro parisien reliant la porte Maillot à la porte de Vincennes est mise en service.<p>
-</h1>1870 </h1> <p> Napoléon III déclare imprudemment la guerre à la Prusse, suite à l'affaire de la dépêche d'Ems.<p>
-</h1>1799 </h1> <p> A l'occasion de la campagne d'Egypte de Bonaparte, découverte à Rosette d'une pierre écrite simultanément en grec, en hiéroglyphes et en démotique.<p>
-</h1>64 </h1> <p> Un incendie, imputé à l'empereur Néron, ravage la ville de Rome<p>
+  </head>
+  <body>
+<h1>1961 </h1> <p> Les troupes tunisiennes envahissent la base navale de Bizerte, occupée par les Français.</p>
+<h1>1900 </h1>
+    <p> La ligne numéro 1 du métro parisien reliant la porte Maillot à la porte de Vincennes est mise en service.</p>
+<h1>1870 </h1> <p> Napoléon III déclare imprudemment la guerre à la Prusse, suite à l'affaire de la dépêche d'Ems.</p>
+<h1>1799 </h1> <p> A l'occasion de la campagne d'Egypte de Bonaparte, découverte à Rosette d'une pierre écrite simultanément en grec, en hiéroglyphes et en démotique.</p>
+<h1>64 </h1> <p> Un incendie, imputé à l'empereur Néron, ravage la ville de Rome</p>
 </body>
 </html>

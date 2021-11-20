@@ -1,4 +1,41 @@
-﻿Historique du mois 
-Juin est représenté « sous la forme d’un homme nu, montrant du doigt une horloge solaire, pour signifier que le soleil commence à descendre ; il porte une torche ardente, symbole des chaleurs de la saison ; derrière lui est une faucille, parce que le temps de la moisson approche. »
+﻿<meta charset="utf-8">
+<title>Citations</title>
+<style type="text/css">
+h1 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h2 {
+	padding-top: 50px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: justify;
+	margin-top:5.0pt;
+	margin-right:0cm;
+	margin-bottom:0.0pt;
+	margin-left:0cm;
+}
+
+</style>
+
+</head>
+<body style="background-color:transparent">
+<h2> Juin est représenté « sous la forme d’un homme nu, montrant du doigt une horloge solaire, pour signifier que le soleil commence à descendre ; il porte une torche ardente, symbole des chaleurs de la saison ; derrière lui est une faucille, parce que le temps de la moisson approche. »
 Le mot juin vient-il de juniores, jeunes gens, ou de Juno, Junonis, Junon ? Quelques auteurs, en adoptant la première étymologie, supposent que dans ce mois on célébrait la fête de la Jeunesse ; ce sont les mêmes auteurs qui font dériver le mot mai du terme latin majores, qui veut dire hommes âgés. Cependant la seconde étymologie paraît assez probable, quand on se souvient que précisément, chez les Romains, le mois de, juin était consacré à la déesse Junon, femme de Jupiter et mère de Vulcain, d’Hébé et de Mars.
-97956395
+ </h2>
+
+<strong><br></strong>
+</body>
+</html>

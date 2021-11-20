@@ -1,33 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1993 </h1> <p> Le prix Nobel de la paix est décerné à Nelson Mandela, chef de l'ANC, et au président sud-africain Frederik de Klerk.<p>
-</h1>1990 </h1> <p> Le prix Nobel de la paix est décerné à Mikhaïl Gorbatchev.<p>
-</h1>1964 </h1> <p> Nikita Khrouchtchev est écarté de ses fonctions de premier secrétaire du PCUS.<p>
-</h1>1946 </h1> <p> Hermann Goering se suicide en prison, à la veille de son exécution pour crimes de guerre.<p>
-</h1>1917 </h1> <p> Mata Hari, accusée d'espionnage au profit de l'Allemagne, est passée par les armes dans les fossés du château de Vincennes.<p>
-</h1>1894 </h1> <p> Arrestation du capitaine Alfred Dreyfus, accusé de trahison au profit de l'Allemagne.<p>
-</h1>1815 </h1> <p> Napoléon arrive à Sainte-Hélène.<p>
-</h1>1582 </h1> <p> Le calendrier grégorien entre en application dans les pays se trouvant sous l'influence du pape Grégoire XIII.<p>
-</h1>1529 </h1> <p> Le sultan ottoman Soliman Ier lève le siège de Vienne.<p>
+  </head>
+  <body>
+<h1>1993 </h1> <p> Le prix Nobel de la paix est décerné à Nelson Mandela, chef de l'ANC, et au président sud-africain Frederik de Klerk.</p>
+<h1>1990 </h1> <p> Le prix Nobel de la paix est décerné à Mikhaïl Gorbatchev.</p>
+<h1>1964 </h1> <p> Nikita Khrouchtchev est écarté de ses fonctions de premier secrétaire du PCUS.</p>
+<h1>1946 </h1> <p> Hermann Goering se suicide en prison, à la veille de son exécution pour crimes de guerre.</p>
+<h1>1917 </h1> <p> Mata Hari, accusée d'espionnage au profit de l'Allemagne, est passée par les armes dans les fossés du château de Vincennes.</p>
+<h1>1894 </h1> <p> Arrestation du capitaine Alfred Dreyfus, accusé de trahison au profit de l'Allemagne.</p>
+<h1>1815 </h1> <p> Napoléon arrive à Sainte-Hélène.</p>
+<h1>1582 </h1> <p> Le calendrier grégorien entre en application dans les pays se trouvant sous l'influence du pape Grégoire XIII.</p>
+<h1>1529 </h1> <p> Le sultan ottoman Soliman Ier lève le siège de Vienne.</p>
 </body>
 </html>
 

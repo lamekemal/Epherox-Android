@@ -1,28 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1959 </h1> <p> L'ancien "commandant en chef du Front révolutionnaire démocratique cubain" Fidel Castro devient président du Conseil.<p>
-</h1>1943 </h1> <p> Une loi votée par le gouvernement de Vichy instaure le Service du Travail Obligatoire pour les hommes âgés de 21 à 23 ans.<p>
-</h1>1936 </h1> <p> Une coalition de gauche, le Front populaire, gagne les élections législatives en Espagne.<p>
-</h1>1899 </h1> <p> Le président de la République Félix Faure décède d'une crise d'apoplexie dans les bras de sa maîtresse qu'il recevait dans un salon de l'Elysée.<p>
-</h1>1214 </h1> <p> Dépossédé de la Normandie et de l'Anjou par Philippe Auguste, le roi d'Angleterre Jean Sans Terre débarque à La Rochelle.<p>
+  </head>
+  <body>
+<h1>1959 </h1> <p> L'ancien "commandant en chef du Front révolutionnaire démocratique cubain" Fidel Castro devient président du Conseil.</p>
+<h1>1943 </h1> <p> Une loi votée par le gouvernement de Vichy instaure le Service du Travail Obligatoire pour les hommes âgés de 21 à 23 ans.</p>
+<h1>1936 </h1> <p> Une coalition de gauche, le Front populaire, gagne les élections législatives en Espagne.</p>
+<h1>1899 </h1> <p> Le président de la République Félix Faure décède d'une crise d'apoplexie dans les bras de sa maîtresse qu'il recevait dans un salon de l'Elysée.</p>
+<h1>1214 </h1> <p> Dépossédé de la Normandie et de l'Anjou par Philippe Auguste, le roi d'Angleterre Jean Sans Terre débarque à La Rochelle.</p>
 </body>
 </html>

@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Document sans nom</title>
-<style type="text/css">
-h1 {
-	color: #FFFFFF;
-	color: #FFFFFF;
-}
+  <head>
+    <meta charset="utf-8"/>
+    <title>Document sans nom</title>
+    <style type="text/css">
+      h1 {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      }
 
-p {
-	color: #FFFFFF;
-	color: #FFFFFF;
-	text-align: justify;
-}
+      p {
+      color: #FFFFFF;
+      color: #FFFFFF;
+      text-align: justify;
+      }
 
-</style>
+    </style>
 
-</head>
-</body>
-</h1>1981 </h1> <p> Les députés adoptent par 369 voix contre 113 le projet de loi de Robert Badinter abolissant la peine de mort en France.<p>
-</h1>1776 </h1> <p> La première expédition espagnole arrive sur les côtes sud-est de l'Amérique du nord et y fonde San Francisco.<p>
-</h1>1595 </h1> <p> Les ambassadeurs du roi de France contraignent Clément VIII d'accorder l'absolution à Henri IV, sous le coup d'une accusation d'"hérésie" lancée dix ans plus tôt par Sixte Quint, et de le reconnaître comme roi de France.<p>
+  </head>
+  <body>
+<h1>1981 </h1> <p> Les députés adoptent par 369 voix contre 113 le projet de loi de Robert Badinter abolissant la peine de mort en France.</p>
+<h1>1776 </h1> <p> La première expédition espagnole arrive sur les côtes sud-est de l'Amérique du nord et y fonde San Francisco.</p>
+<h1>1595 </h1> <p> Les ambassadeurs du roi de France contraignent Clément VIII d'accorder l'absolution à Henri IV, sous le coup d'une accusation d'"hérésie" lancée dix ans plus tôt par Sixte Quint, et de le reconnaître comme roi de France.</p>
 
 </body>
 </html>
