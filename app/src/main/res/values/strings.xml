@@ -39,5 +39,8 @@
     <string name="tab_natf">Fête Nationale</string>
     <string name="datePiker_text">Sélectionner une date</string>
     <string name="mouth_htext">Histoire du mois de </string>
+    <string name="tagethelpdesc">Collecter des jetons récompense à chaque fois que vous utilisez l\'application. Le menu de gestion des récompenses permet de voir votre progression et de re-exploiter les jetons sur les jeux partenaires. </string>
+    <string name="compte">Compte</string>
+    <string name="r_compenses">Récompenses</string>
 
 </resources>

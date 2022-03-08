@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.opengl.Visibility;
 import android.os.Build;
@@ -15,9 +16,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.ImageButton;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.getkeepsafe.taptargetview.TapTarget;
+import com.getkeepsafe.taptargetview.TapTargetView;
 import com.google.android.material.bottomappbar.BottomAppBar;
 import com.google.android.material.bottomappbar.BottomAppBarTopEdgeTreatment;
 import com.google.android.material.datepicker.MaterialDatePicker;
@@ -47,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton floatingActionButton;
     BottomAppBar bottomAppBar;
     TabLayout tabLayout;
+    TinyDB tinydb;
     String tdDate; //today date format dd-mm
     String longDateFormat; //date at long format
     String tdMouth; //today date format dd-mm
@@ -59,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         floatingActionButton = findViewById(R.id.fabHome);
         bottomAppBar = findViewById(R.id.bottomAppbar);
         setSupportActionBar(bottomAppBar);
-        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             getWindow().setNavigationBarColor(getResources().getColor(R.color. colorAccent));
         }
         tdDate = new SimpleDateFormat("dd_MM", Locale.getDefault()).format(new Date());
@@ -67,6 +73,18 @@ public class MainActivity extends AppCompatActivity {
         tdMouth = new SimpleDateFormat("MM", Locale.getDefault()).format(new Date());
         longMouthFormat = new SimpleDateFormat(" MMMM", Locale.FRENCH).format(new Date());
         tabLayout = findViewById(R.id.tabs);
+        ImageButton imGamifyst = findViewById(R.id.buttonBadge);
+        ProgressBar prGamifyst = findViewById(R.id.myprogressBar);
+
+        imGamifyst.setOnClickListener(v -> {
+            Intent i = new Intent(this, GamifyActivity.class);
+            startActivity(i);
+        });
+
+        prGamifyst.setOnClickListener(v -> {
+            Intent i = new Intent(this, GamifyActivity.class);
+            startActivity(i);
+        });
 
         //TabLayout listner for action
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -113,6 +131,64 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int fragmentOption = intent.getIntExtra("fragmentRequest",0);
         fragmentRequest(fragmentOption);
+        tinydb = new TinyDB(this);
+        if (tinydb.getBoolean("isTargetRViewed") == false) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                TapTargetView.showFor(this,                 // `this` is an Activity
+                        TapTarget.forView(findViewById(R.id.buttonBadge), "Récompenses journalières", getString(R.string.tagethelpdesc))
+                                // All options below are optional
+                                .outerCircleColor(R.color.colorAccent)      // Specify a color for the outer circle
+                                .outerCircleAlpha(0.96f)            // Specify the alpha amount for the outer circle
+                                .targetCircleColor(R.color.blanc)   // Specify a color for the target circle
+                                .titleTextSize(35)                  // Specify the size (in sp) of the title text
+                                .titleTextColor(R.color.blanc)      // Specify the color of the title text
+                                .descriptionTextSize(22)            // Specify the size (in sp) of the description text
+                                .descriptionTextColor(R.color.blanc)  // Specify the color of the description text
+                                .textColor(R.color.blanc)            // Specify a color for both the title and description text
+                                .textTypeface(Typeface.SANS_SERIF)  // Specify a typeface for the text
+                                .dimColor(R.color.material_on_background_disabled)            // If set, will dim behind the view with 30% opacity of the given color
+                                .drawShadow(true)                   // Whether to draw a drop shadow or not
+                                .cancelable(false)                  // Whether tapping outside the outer circle dismisses the view
+                                .tintTarget(true)                   // Whether to tint the target view's color
+                                .transparentTarget(false)           // Specify whether the target is transparent (displays the content underneath)
+                                .icon(getDrawable(R.drawable.outline_local_police_24))                     // Specify a custom drawable to draw as the target
+                                .targetRadius(60),                  // Specify the target radius (in dp)
+                        new TapTargetView.Listener() {          // The listener can listen for regular clicks, long clicks or cancels
+                            @Override
+                            public void onTargetClick(TapTargetView view) {
+                                super.onTargetClick(view);      // This call is optional
+                                tinydb.putBoolean("isTargetRViewed", true);
+                            }
+                        });
+            }else{
+                TapTargetView.showFor(this,                 // `this` is an Activity
+                        TapTarget.forView(findViewById(R.id.buttonBadge), "Récompenses journalières", getString(R.string.tagethelpdesc))
+                                // All options below are optional
+                                .outerCircleColor(R.color.colorAccent)      // Specify a color for the outer circle
+                                .outerCircleAlpha(0.96f)            // Specify the alpha amount for the outer circle
+                                .targetCircleColor(R.color.blanc)   // Specify a color for the target circle
+                                .titleTextSize(35)                  // Specify the size (in sp) of the title text
+                                .titleTextColor(R.color.blanc)      // Specify the color of the title text
+                                .descriptionTextSize(22)            // Specify the size (in sp) of the description text
+                                .descriptionTextColor(R.color.blanc)  // Specify the color of the description text
+                                .textColor(R.color.blanc)            // Specify a color for both the title and description text
+                                .textTypeface(Typeface.SANS_SERIF)  // Specify a typeface for the text
+                                .dimColor(R.color.material_on_background_disabled)            // If set, will dim behind the view with 30% opacity of the given color
+                                .drawShadow(true)                   // Whether to draw a drop shadow or not
+                                .cancelable(false)                  // Whether tapping outside the outer circle dismisses the view
+                                .tintTarget(true)                   // Whether to tint the target view's color
+                                .transparentTarget(false)           // Specify whether the target is transparent (displays the content underneath)
+                                .targetRadius(60),                  // Specify the target radius (in dp)
+                        new TapTargetView.Listener() {          // The listener can listen for regular clicks, long clicks or cancels
+                            @Override
+                            public void onTargetClick(TapTargetView view) {
+                                super.onTargetClick(view);      // This call is optional
+                                //doSomething();
+                                tinydb.putBoolean("isTargetRViewed", true);
+                            }
+                        });
+            }
+        }
     }
 
     void webViewInt(){
@@ -232,7 +308,7 @@ public class MainActivity extends AppCompatActivity {
     @org.jetbrains.annotations.Nullable
     private String readephxFromFile(Context context, String dateId) {
         try {
-            int myID = getResourceID(dateId, "raw", getApplicationContext());
+            int myID = getResourceID(dateId, "raw", context);
             if(myID == -1){
                 return null;
             }else {
@@ -337,12 +413,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadMouthHistory(Context baseContext, String todayDate) {
         tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.mouth_htext).concat(longMouthFormat)).setTag(5));
-        setEphxView(baseContext, "m" + todayDate);
+        setEphxView(baseContext, "m_" + todayDate);
     }
 
     private void loadCitation(Context baseContext, int randomNumber) {
-        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.mouth_htext).concat(longMouthFormat)).setTag(5));
-        setEphxView(baseContext, "c".concat(Integer.toString(randomNumber)));
+        tabLayout.addTab(tabLayout.newTab().setText(getString(R.string.citation)).setTag(6));
+        setEphxView(baseContext, "c_".concat(Integer.toString(randomNumber)));
     }
 
     @Override
