@@ -1,14 +1,5 @@
 package bj.archeos.epherox;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Map;
-
-//import com.google.gson.Gson;
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -18,6 +9,16 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.Map;
+
+//import com.google.gson.Gson;
 
 
 public class TinyDB {
@@ -268,6 +269,15 @@ public class TinyDB {
     }
 
     /**
+     * Get Date value from SharedPreferences at 'key'. If key not found, return ""
+     * @param key SharedPreferences key
+     * @return Date value at 'key' or "" (empty String) if key not found
+     */
+    public Date getDate(String key) {
+        return new Date(preferences.getLong(key, 0));
+    }
+
+    /**
      * Get parsed ArrayList of String from SharedPreferences at 'key'
      * @param key SharedPreferences key
      * @return ArrayList of String
@@ -416,6 +426,15 @@ public class TinyDB {
         preferences.edit().putString(key, value).apply();
     }
 
+    /**
+     * Put String value into SharedPreferences with 'key' and save
+     * @param key SharedPreferences key
+     * @param value Datetime value to be added
+     */
+    public void putDate(String key, Date value) {
+        checkForNullKey(key); checkForDateNullValue(value);
+        preferences.edit().putLong(key, value.getTime()).apply();
+    }
     /**
      * Put ArrayList of String into SharedPreferences with 'key' and save
      * @param key SharedPreferences key
@@ -580,6 +599,12 @@ public class TinyDB {
      * @param value the pref value to check
      */
     private void checkForNullValue(String value){
+        if (value == null){
+            throw new NullPointerException();
+        }
+    }
+
+    private void checkForDateNullValue(Date value){
         if (value == null){
             throw new NullPointerException();
         }

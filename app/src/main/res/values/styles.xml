@@ -16,6 +16,11 @@
         <item name="textInputStyle">@style/Widget.Shrine.TextInputLayout</item>
     </style>
 
+    <style name="CounterText" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
     <style name="ThemeOverlay.App.DatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
         <item name="colorPrimary">@color/colorAccent</item>
         <item name="colorOnPrimary">@color/blanc</item>

@@ -6,7 +6,10 @@
     <color name="colorAccentClair">#AA76AA</color>
     <color name="colorBackground">#FFFFFF</color>
     <color name="blanc">#FFFFFF</color>
+    <color name="blancA20">#A637A6</color>
     <color name="colorBBackground">#2095F2</color>
     <color name="grey50">#f8f9fa</color>
-
+    <color name="paletteNotionV1">#007BB8</color>
+    <color name="paletteNotionV2">#DBD1FF</color>
+    <color name="paletteNotionV3">#CF71AF</color>
 </resources>

@@ -5,28 +5,568 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GamifyActivity">
-    <RelativeLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/grey50">
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/usertabs"
-        android:layout_width="match_parent"
+        android:background="@color/grey50"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/gamifyToolbars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blanc"
+            app:titleTextColor="@color/colorAccent"></androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/usertabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabMode="auto"
+            app:tabSelectedTextColor="@color/colorAccent">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r_compenses" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/compte" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/recompenseTabs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_margin="15dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="105dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/paletteNotionV3"
+                            app:cardCornerRadius="12dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="35dp"
+                                    android:layout_margin="5dp"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/outline_wallet_white_24" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginTop="3dp"
+                                        android:text="Wallet"
+                                        android:textColor="@color/blanc"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-9dp"
+                                    android:text=" Jetons disponible"
+                                    android:textColor="@color/blanc"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/acc_debit"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="65dp"
+                                    android:text="000"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/blanc"
+                                    android:textSize="55dp" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginHorizontal="2dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="Obtenez des jetons : Connectez-vous pendant 7 jours!"
+                                android:textAlignment="center"
+                                android:textColor="@color/blanc"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <androidx.constraintlayout.helper.widget.Flow
+                                    android:id="@+id/flow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:constraint_referenced_ids="daysJ_1,daysJ_2,daysJ_3,
+                                    daysJ_4,daysJ_5,daysJ_6,daysJ_7"
+                                    app:flow_horizontalAlign="start"
+                                    app:flow_horizontalBias="1"
+                                    app:flow_horizontalGap="3dp"
+                                    app:flow_horizontalStyle="spread"
+                                    app:flow_verticalAlign="baseline"
+                                    app:flow_verticalBias="0"
+                                    app:flow_verticalGap="3dp"
+                                    app:flow_verticalStyle="spread"
+                                    app:flow_wrapMode="aligned"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_1"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 1"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_2"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 2"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_3"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 3"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_4"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 4"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_5"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 5"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+6"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_6"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 6"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+1"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/daysJ_7"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    app:cardBackgroundColor="@color/colorAccent"
+                                    app:cardCornerRadius="5dp">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="55dp"
+                                        android:layout_margin="3dp"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Jour 7"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:text="+8"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="19dp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="-3dp"
+                                            android:text="Jetons"
+                                            android:textColor="@color/blanc"
+                                            android:textSize="11dp" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/accompte_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/sub_accompte_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Compte de synchronisation"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/mail_inputfield"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="textEmailAddress"
+                        android:hint="Email"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/pin_inputfield"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="8"
+                        app:counterTextAppearance="@style/CounterText"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="numberPassword"
+                        android:maxLength="8"
+                        android:minEms="4"
+                        android:hint="Code Pin"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="textPassword"
+                        android:hint="Confirmation du Mot de passe"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/login_button"
+                            android:backgroundTint="@color/blanc"
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="wrap_content"
+                            app:strokeColor="@color/colorAccent"
+                            android:layout_height="wrap_content"
+                            android:text="Se connecter"
+                            app:strokeWidth="1dp"
+                            android:layout_margin="15dp"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/register_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                           android:backgroundTint="@color/colorAccent"
+                            android:text="S'enregistrer"
+                            android:layout_margin="15dp"/>
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/myprogressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:indeterminate="true"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connected_acc_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Compte de synchronisation connecter : "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_for_conneced_accuont"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="email"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/disconn_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:layout_gravity="center"
+                        android:text="DECONNEXION"
+                        android:layout_margin="15dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="@color/colorAccent"
-        app:tabMode="auto"
-        app:tabSelectedTextColor="@color/colorAccent">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/r_compenses"
-             />
-        <com.google.android.material.tabs.TabItem
-            android:text="@string/compte"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
-
-    </com.google.android.material.tabs.TabLayout>
-    </RelativeLayout>
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
