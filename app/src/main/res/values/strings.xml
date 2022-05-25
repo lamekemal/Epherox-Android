@@ -43,5 +43,9 @@
     <string name="compte">Compte</string>
     <string name="r_compenses">Récompenses</string>
     <string name="gamifySubTitle">Gestion des récompenses</string>
+    <string name="error_login_txt">Informations incorrectes / compte inexistant</string>
+    <string name="gamify_account_TAG">ui_gamify_useracc</string>
+    <string name="gamify_ui_var_days">ui_gamify_var</string>
+    <string name="systm_error_str">Erreur système</string>
 
 </resources>

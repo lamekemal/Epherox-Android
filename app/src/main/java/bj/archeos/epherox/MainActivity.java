@@ -7,12 +7,16 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.util.Base64;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.content.res.AppCompatResources;
@@ -36,12 +40,18 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Random;
 import java.util.UUID;
+
+import bj.archeos.epherox.model.EphxGPojo;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton floatingActionButton;
@@ -52,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
     String longDateFormat; //date at long format
     String tdMouth; //today date format dd-mm
     String longMouthFormat; //date at long format
+    String DEVICE_ID;
 
     boolean isPremiumVersion = true;  //Variable for Apps Premium Version
     @Override
@@ -129,13 +140,17 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int fragmentOption = intent.getIntExtra("fragmentRequest",0);
         fragmentRequest(fragmentOption);
+
+        //gamify helper
         tinydb = new TinyDB(this);
+        DEVICE_ID = Settings.Secure.getString(this.getContentResolver(),
+                    Settings.Secure.ANDROID_ID);
         if (!tinydb.getBoolean("isTargetRViewed")) {
             tinydb.putBoolean("isRegistered",false);
             tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
-            tinydb.putInt("ui_gamify_var", 1);
+            tinydb.putInt(getString(R.string.gamify_ui_var_days), 1);
             tinydb.putString("ui_gamify_userid", UUID.randomUUID().toString());
-            tinydb.putInt("ui_gamify_useracc", 0);
+            tinydb.putInt(getString(R.string.gamify_account_TAG), 1);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 TapTargetView.showFor(this,                 // `this` is an Activity
                         TapTarget.forView(findViewById(R.id.buttonBadge), "Récompenses journalières", getString(R.string.tagethelpdesc))
@@ -193,20 +208,64 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         gamify_assitment(new Date(System.currentTimeMillis()));
+
+        if(tinydb.getBoolean("is_login")){
+            ProgressBar gamifyIndicator = findViewById(R.id.myprogressBar);
+            gamifyIndicator.setIndeterminate(true);
+            gamifyIndicator.setVisibility(View.VISIBLE);
+            saveGamifyData(tinydb.getInt(getString(R.string.gamify_account_TAG)),
+                    tinydb.getString("user_mail"),
+                    tinydb.getDate("gamify_saveddate"),DEVICE_ID);
+        }else {ProgressBar gamifyIndicator = findViewById(R.id.myprogressBar);
+            gamifyIndicator.setIndeterminate(true);
+            gamifyIndicator.setVisibility(View.GONE);}
+
+    }
+
+    private void saveGamifyData(int score, String email, Date userDate, String key) {
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss", Locale.US);
+            String userDateFormated = df.format(userDate);
+            byte[] emailData = email.getBytes(StandardCharsets.UTF_8);
+            byte[] keyData = key.getBytes(StandardCharsets.UTF_8);
+            byte[] userDateData = userDateFormated.getBytes(StandardCharsets.UTF_8);
+            String emailData64 = Base64.encodeToString(emailData, Base64.DEFAULT);
+            String keyData64 = Base64.encodeToString(keyData, Base64.DEFAULT);
+            String userDateData64 = Base64.encodeToString(userDateData, Base64.DEFAULT);
+
+            Call<EphxGPojo> call = RetrofitClient.getInstance().getMyApi().saveScore(emailData64,score,userDateData64,keyData64);
+            call.enqueue(new Callback<EphxGPojo>() {
+                @Override
+                public void onResponse(Call<EphxGPojo> call, Response<EphxGPojo> response) {
+                    EphxGPojo result = response.body();
+                    String stat = result.getStatus();
+                    if(stat.equals("ok")){
+                        Log.w("TAG_SYNC", "SYNCRO-OK");
+                    }
+                    ProgressBar gamifyIndicator = findViewById(R.id.myprogressBar);
+                    gamifyIndicator.setIndeterminate(false);
+                    gamifyIndicator.setProgress(100);
+                    gamifyIndicator.setVisibility(View.GONE);
+                }
+                @Override
+                public void onFailure(Call<EphxGPojo> call, Throwable t) {
+                    Toast.makeText(getApplicationContext(), getString(R.string.systm_error_str), Toast.LENGTH_LONG).show();
+                    ProgressBar gamifyIndicator = findViewById(R.id.myprogressBar);
+                    gamifyIndicator.setIndeterminate(false);
+                    gamifyIndicator.setProgress(0);
+                }
+            });
     }
 
     private void gamify_assitment(Date dateActual) {
         Date lastConnect = tinydb.getDate("gamify_saveddate");
-        SimpleDateFormat formatter_original = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss",Locale.FRENCH);
-        SimpleDateFormat formatter_children = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss", Locale.FRENCH);
-
+       long caltest =  getChoicedData(dateActual, Calendar.DAY_OF_YEAR) - getChoicedData(lastConnect, Calendar.DAY_OF_YEAR);
+       Log.i("HOUR_CALCULATED", String.valueOf(caltest));
         if(dateActual.getTime() >= lastConnect.getTime()){
-            int user_acc = tinydb.getInt("ui_gamify_useracc");
+            int user_acc = tinydb.getInt(getString(R.string.gamify_account_TAG));
             if (getChoicedData(dateActual, Calendar.YEAR)>getChoicedData(lastConnect, Calendar.YEAR)){
                 //new year zone
-                //do somthings
-                tinydb.putInt("ui_gamify_var", 1);
-                tinydb.putInt("ui_gamify_useracc", (user_acc + 1));
+                tinydb.putInt(getString(R.string.gamify_ui_var_days), 1);
+                tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 1));
                 tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
             }else if(getChoicedData(dateActual, Calendar.YEAR) == getChoicedData(lastConnect, Calendar.YEAR)){
                 //actual zone
@@ -214,37 +273,38 @@ public class MainActivity extends AppCompatActivity {
                         //do nothing
                         tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
                 }else if(getChoicedData(dateActual, Calendar.DAY_OF_YEAR) > getChoicedData(lastConnect, Calendar.DAY_OF_YEAR) ){
-                    if((getChoicedData(dateActual, Calendar.DAY_OF_YEAR) - getChoicedData(dateActual, Calendar.DAY_OF_YEAR)) == 1){
+                    if((getChoicedData(dateActual, Calendar.DAY_OF_YEAR) - getChoicedData(lastConnect, Calendar.DAY_OF_YEAR)) == 1){
                         //do somthing
-                        int varDays = tinydb.getInt("ui_gamify_var");
-                        if(varDays == 5){
-                            varDays = tinydb.getInt("ui_gamify_var") + 1;
-                            tinydb.putInt("ui_gamify_var", varDays);
+                        int varDays = tinydb.getInt(getString(R.string.gamify_ui_var_days));
+                        if(varDays == 4){
+                            varDays = varDays + 1;
+                            tinydb.putInt(getString(R.string.gamify_ui_var_days), varDays);
                             tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
-                            tinydb.putInt("ui_gamify_useracc", (user_acc + 6));
+                            tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 6));
+                        }else if(varDays == 6){
+                            varDays = varDays + 1;
+                            tinydb.putInt(getString(R.string.gamify_ui_var_days), varDays);
+                            tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
+                            tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 8));
                         }else if(varDays == 7){
-
-                            varDays = tinydb.getInt("ui_gamify_var") + 1;
-                            tinydb.putInt("ui_gamify_var", varDays);
-                            tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
-                            tinydb.putInt("ui_gamify_useracc", (user_acc + 8));
-                        }else if(varDays == 8){
-
-                            tinydb.putInt("ui_gamify_var", 1);
-                            tinydb.putInt("ui_gamify_useracc", (user_acc + 1));
+                            tinydb.putInt(getString(R.string.gamify_ui_var_days), 1);
+                            tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 1));
                             tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
                         }else {
-                            varDays = tinydb.getInt("ui_gamify_var") + 1;
-                            tinydb.putInt("ui_gamify_var", varDays);
-                            tinydb.putInt("ui_gamify_useracc", (user_acc + 1));
+                            if (varDays > 7){
+                                tinydb.putInt(getString(R.string.gamify_ui_var_days), 0);
+                            }
+                            varDays = varDays + 1;
+                            tinydb.putInt(getString(R.string.gamify_ui_var_days), varDays);
+                            tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 1));
                             tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
                         }
                         tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
                     }else{
                         //do sothings
-                        tinydb.putInt("ui_gamify_var", 1);
+                        tinydb.putInt(getString(R.string.gamify_ui_var_days), 1);
                         tinydb.putDate("gamify_saveddate", new Date(System.currentTimeMillis()));
-                        tinydb.putInt("ui_gamify_useracc", (user_acc + 1));
+                        tinydb.putInt(getString(R.string.gamify_account_TAG), (user_acc + 1));
                     }
                 }
             }
