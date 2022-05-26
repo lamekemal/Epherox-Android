@@ -12,4 +12,5 @@
     <color name="paletteNotionV1">#007BB8</color>
     <color name="paletteNotionV2">#DBD1FF</color>
     <color name="paletteNotionV3">#CF71AF</color>
+    <color name="black">#000000</color>
 </resources>

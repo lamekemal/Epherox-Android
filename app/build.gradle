@@ -6,10 +6,11 @@ android {
         applicationId "bj.archeos.epherox"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 116
+        versionName "1.05"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+        versionNameSuffix 'Rome'
     }
     buildTypes {
         release {

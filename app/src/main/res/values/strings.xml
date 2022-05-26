@@ -47,5 +47,6 @@
     <string name="gamify_account_TAG">ui_gamify_useracc</string>
     <string name="gamify_ui_var_days">ui_gamify_var</string>
     <string name="systm_error_str">Erreur système</string>
+    <string name="privacy_infos">Vous pouvez nous envoyer un mail à dev@archeos.bj pour demander la suppression ou le téléchargement de toutes données vous concernant. Le mail devra être envoyé depuis l\'adresse concernée et préciser la requête.</string>
 
 </resources>

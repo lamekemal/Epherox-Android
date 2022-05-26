@@ -526,6 +526,17 @@
                         android:layout_gravity="center"
                         android:indeterminate="true"
                         android:visibility="gone"/>
+
+                    <TextView
+                        android:background="@color/paletteNotionV2"
+                        android:layout_margin="20dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:text="@string/privacy_infos"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -564,7 +575,19 @@
                         android:layout_gravity="center"
                         android:text="DECONNEXION"
                         android:layout_margin="15dp"/>
+
+                    <TextView
+                        android:background="@color/paletteNotionV2"
+                        android:layout_margin="20dp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:text="@string/privacy_infos"
+                        android:textStyle="italic"
+                        android:textSize="15sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
+
             </RelativeLayout>
         </RelativeLayout>
 
