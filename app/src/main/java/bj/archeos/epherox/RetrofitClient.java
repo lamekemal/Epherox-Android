@@ -8,7 +8,7 @@ public class RetrofitClient{
     private gamify myApi;
 
     private RetrofitClient() {
-        String BASE_URL = "https://apps-api.archeos.bj/";
+        String BASE_URL = "https://api.archeos.bj/";
         Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
